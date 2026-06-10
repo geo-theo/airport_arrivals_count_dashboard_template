@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A live, GitHub Pages-ready dashboard for exploring flight arrival patterns across major United States airports."
+    />
+    <meta name="theme-color" content="#07111f" />
+    <title>Arrival Pulse | US Flight Arrivals</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    <link rel="preconnect" href="https://unpkg.com" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/chart.js@4.4.9/dist/chart.umd.min.js"
+      defer
+    ></script>
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+      defer
+    ></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Dashboard navigation">
+        <a class="brand" href="#overview" aria-label="Arrival Pulse home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32" role="img">
+              <path d="M27 14.4 17.8 9V4.2a1.8 1.8 0 0 0-3.6 0V9L5 14.4v3.1l9.2-2.8v7.1l-3.2 2v2.1l5-1.3 5 1.3v-2.1l-3.2-2v-7.1l9.2 2.8v-3.1Z" />
+            </svg>
+          </span>
+          <span>
+            <strong>ARRIVAL</strong>
+            <small>PULSE</small>
+          </span>
+        </a>
+
+        <nav class="primary-nav">
+          <a class="nav-link is-active" href="#overview">
+            <span class="nav-icon" aria-hidden="true">01</span>
+            Overview
+          </a>
+          <a class="nav-link" href="#network">
+            <span class="nav-icon" aria-hidden="true">02</span>
+            Network
+          </a>
+          <a class="nav-link" href="#patterns">
+            <span class="nav-icon" aria-hidden="true">03</span>
+            Patterns
+          </a>
+          <a class="nav-link" href="#airports">
+            <span class="nav-icon" aria-hidden="true">04</span>
+            Airports
+          </a>
+        </nav>
+
+        <div class="sidebar-status">
+          <div class="status-orbit" aria-hidden="true">
+            <span></span>
+          </div>
+          <p>Data pipeline</p>
+          <strong id="sidebar-source">Sample baseline</strong>
+          <small id="sidebar-updated">Ready to connect</small>
+        </div>
+
+        <a
+          class="source-link"
+          href="https://openskynetwork.github.io/opensky-api/rest.html"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Data methodology
+          <span aria-hidden="true">↗</span>
+        </a>
+      </aside>
+
+      <main class="main-content">
+        <header class="topbar" id="overview">
+          <div>
+            <p class="eyebrow">United States air traffic</p>
+            <h1>National arrival pulse</h1>
+          </div>
+
+          <div class="topbar-actions">
+            <div class="data-status" id="data-status" role="status">
+              <span class="live-dot" aria-hidden="true"></span>
+              <span>
+                <small>DATA SOURCE</small>
+                <strong id="source-label">Loading dataset</strong>
+              </span>
+            </div>
+            <button class="icon-button" id="refresh-button" type="button" aria-label="Refresh dashboard data">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M20 11a8.1 8.1 0 0 0-15.5-2M4 4v5h5M4 13a8.1 8.1 0 0 0 15.5 2M20 20v-5h-5" />
+              </svg>
+            </button>
+          </div>
+        </header>
+
+        <section class="filter-bar" aria-label="Dashboard filters">
+          <div class="period-control" role="group" aria-label="Time period">
+            <button type="button" data-period="live">Latest</button>
+            <button type="button" data-period="24h" class="is-selected">24 hours</button>
+            <button type="button" data-period="7d">7 days</button>
+            <button type="button" data-period="30d">30 days</button>
+            <button type="button" data-period="1y">1 year</button>
+          </div>
+
+          <label class="select-control">
+            <span class="sr-only">Select region</span>
+            <select id="region-select">
+              <option value="all">All US regions</option>
+              <option value="West">West</option>
+              <option value="Southwest">Southwest</option>
+              <option value="Midwest">Midwest</option>
+              <option value="Southeast">Southeast</option>
+              <option value="Northeast">Northeast</option>
+              <option value="Noncontiguous">Alaska & Hawaii</option>
+            </select>
+          </label>
+
+          <label class="search-control">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="11" cy="11" r="6.5"></circle>
+              <path d="m16 16 4 4"></path>
+            </svg>
+            <span class="sr-only">Search airports</span>
+            <input id="airport-search" type="search" placeholder="Find airport or city" autocomplete="off" />
+          </label>
+        </section>
+
+        <section class="kpi-grid" aria-label="Key arrival metrics">
+          <article class="kpi-card kpi-primary">
+            <div class="kpi-heading">
+              <span class="kpi-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path d="m3 15 18-6M8 13l-2-4M15.5 10.5l2.5-4M12 12l-1 8m-4 0h8" />
+                </svg>
+              </span>
+              <span>Total arrivals</span>
+            </div>
+            <strong id="metric-total">--</strong>
+            <div class="kpi-footer">
+              <span class="trend-chip positive" id="metric-change">--</span>
+              <span id="metric-period-label">vs previous 24h</span>
+            </div>
+            <div class="sparkline" id="total-sparkline" aria-hidden="true"></div>
+          </article>
+
+          <article class="kpi-card">
+            <div class="kpi-heading">
+              <span class="kpi-icon violet" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Z" />
+                  <path d="m12 7 3 5-3 1-3-1 3-5Zm0 6v4" />
+                </svg>
+              </span>
+              <span>Busiest airport</span>
+            </div>
+            <strong id="metric-airport">--</strong>
+            <div class="kpi-footer">
+              <span id="metric-airport-name">Calculating</span>
+            </div>
+            <div class="kpi-mini-row">
+              <span id="metric-airport-count">-- arrivals</span>
+              <div class="mini-track"><span id="metric-airport-bar"></span></div>
+            </div>
+          </article>
+
+          <article class="kpi-card">
+            <div class="kpi-heading">
+              <span class="kpi-icon amber" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path d="M4 18V9m5 9V5m5 13v-7m5 7V3" />
+                </svg>
+              </span>
+              <span>Peak arrival hour</span>
+            </div>
+            <strong id="metric-peak">--</strong>
+            <div class="kpi-footer">
+              <span id="metric-peak-count">-- average arrivals</span>
+            </div>
+            <div class="peak-bars" id="peak-bars" aria-hidden="true"></div>
+          </article>
+
+          <article class="kpi-card">
+            <div class="kpi-heading">
+              <span class="kpi-icon coral" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <circle cx="12" cy="12" r="3"></circle>
+                  <path d="M12 2v3m0 14v3M2 12h3m14 0h3M5 5l2 2m10 10 2 2m0-14-2 2M7 17l-2 2" />
+                </svg>
+              </span>
+              <span>Active hubs</span>
+            </div>
+            <strong id="metric-hubs">--</strong>
+            <div class="kpi-footer">
+              <span id="metric-coverage">Across 50 monitored airports</span>
+            </div>
+            <div class="hub-dots" id="hub-dots" aria-hidden="true"></div>
+          </article>
+        </section>
+
+        <section class="dashboard-grid" id="network">
+          <article class="panel map-panel">
+            <div class="panel-header">
+              <div>
+                <p class="panel-kicker">Geographic distribution</p>
+                <h2>Arrival activity by airport</h2>
+              </div>
+              <div class="map-legend" aria-label="Map legend">
+                <span><i class="legend-dot low"></i>Lower</span>
+                <span><i class="legend-dot medium"></i>Elevated</span>
+                <span><i class="legend-dot high"></i>Highest</span>
+              </div>
+            </div>
+            <div class="map-wrap">
+              <div id="arrivals-map" aria-label="Map of United States airport arrivals"></div>
+              <div class="map-fallback" id="map-fallback" hidden>
+                <strong>Map library unavailable</strong>
+                <span>Arrival rankings and charts remain available below.</span>
+              </div>
+              <div class="map-stat">
+                <span>Selected network</span>
+                <strong id="map-total">-- arrivals</strong>
+              </div>
+            </div>
+          </article>
+
+          <article class="panel region-panel">
+            <div class="panel-header">
+              <div>
+                <p class="panel-kicker">Share of arrivals</p>
+                <h2>Regional pulse</h2>
+              </div>
+              <span class="panel-meta" id="region-period">24H</span>
+            </div>
+            <div class="region-donut-wrap">
+              <canvas id="region-chart" aria-label="Regional share donut chart"></canvas>
+              <div class="donut-center">
+                <strong id="donut-total">--</strong>
+                <span>arrivals</span>
+              </div>
+            </div>
+            <div class="region-list" id="region-list"></div>
+          </article>
+        </section>
+
+        <section class="dashboard-grid chart-row" id="patterns">
+          <article class="panel trend-panel">
+            <div class="panel-header">
+              <div>
+                <p class="panel-kicker">UTC volume over time</p>
+                <h2 id="trend-title">Hourly arrival trend</h2>
+              </div>
+              <div class="legend-inline">
+                <span><i class="legend-line current"></i>Current period</span>
+                <span><i class="legend-line previous"></i>Previous period</span>
+              </div>
+            </div>
+            <div class="chart-canvas-wrap">
+              <canvas id="trend-chart" aria-label="Arrival volume trend chart"></canvas>
+            </div>
+          </article>
+
+          <article class="panel hourly-panel">
+            <div class="panel-header">
+              <div>
+                <p class="panel-kicker">Average day</p>
+                <h2>Hourly rhythm</h2>
+              </div>
+              <span class="panel-meta">LOCAL</span>
+            </div>
+            <div class="chart-canvas-wrap compact">
+              <canvas id="hourly-chart" aria-label="Average arrivals by hour chart"></canvas>
+            </div>
+            <div class="insight-callout">
+              <span class="insight-mark">i</span>
+              <p id="hourly-insight">Arrival demand builds through the afternoon.</p>
+            </div>
+          </article>
+        </section>
+
+        <section class="dashboard-grid lower-row" id="airports">
+          <article class="panel ranking-panel">
+            <div class="panel-header">
+              <div>
+                <p class="panel-kicker">Airport leaderboard</p>
+                <h2>Top arrival hubs</h2>
+              </div>
+              <button class="text-button" id="show-more-airports" type="button">Show 10</button>
+            </div>
+            <div class="airport-table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Airport</th>
+                    <th>Region</th>
+                    <th>Arrivals</th>
+                    <th>Network share</th>
+                    <th>Pulse</th>
+                  </tr>
+                </thead>
+                <tbody id="airport-table-body"></tbody>
+              </table>
+            </div>
+          </article>
+
+          <article class="panel heatmap-panel">
+            <div class="panel-header">
+              <div>
+                <p class="panel-kicker">Recurring demand</p>
+                <h2>Weekday by hour</h2>
+              </div>
+              <div class="heat-legend" aria-label="Heatmap intensity legend">
+                <span>Low</span>
+                <i></i><i></i><i></i><i></i><i></i>
+                <span>High</span>
+              </div>
+            </div>
+            <div class="heatmap" id="arrival-heatmap" role="img" aria-label="Arrival activity heatmap by weekday and hour"></div>
+            <div class="heatmap-note">
+              <strong id="heatmap-highlight">Friday afternoon</strong>
+              <span>is the strongest recurring arrival window.</span>
+            </div>
+          </article>
+        </section>
+
+        <section class="methodology">
+          <div>
+            <p class="panel-kicker">Designed for transparent data</p>
+            <h2>How to read this dashboard</h2>
+          </div>
+          <p id="methodology-copy">
+            The starter dataset is modeled for demonstration. Connect OpenSky in GitHub Actions to replace recent
+            periods with observed completed-flight records. Airport metadata is derived from OurAirports.
+          </p>
+          <div class="methodology-links">
+            <a href="https://opensky-network.org/" target="_blank" rel="noreferrer">OpenSky Network ↗</a>
+            <a href="https://ourairports.com/data/" target="_blank" rel="noreferrer">OurAirports ↗</a>
+          </div>
+        </section>
+
+        <footer>
+          <span>Arrival Pulse</span>
+          <span>Static, open, and ready for GitHub Pages</span>
+          <span id="footer-timestamp">Dataset loading</span>
+        </footer>
+      </main>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>

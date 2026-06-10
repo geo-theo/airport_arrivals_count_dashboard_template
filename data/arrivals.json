@@ -1,0 +1,10 @@
+{
+  "meta": {
+    "generatedAt": null,
+    "source": "sample",
+    "provider": "OpenSky Network",
+    "coverage": "50 major US airports",
+    "note": "No observed buckets have been collected yet. The dashboard will use its deterministic sample baseline."
+  },
+  "buckets": []
+}
