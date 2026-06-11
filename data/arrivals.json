@@ -1,10 +1,73 @@
 {
   "meta": {
-    "generatedAt": null,
-    "source": "sample",
+    "generatedAt": "2026-06-11T00:05:42.184311Z",
+    "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "note": "No observed buckets have been collected yet. The dashboard will use its deterministic sample baseline."
+    "windowStart": "2026-06-10T22:00:00Z",
+    "windowEnd": "2026-06-11T00:00:00Z",
+    "retentionDays": 45,
+    "authenticated": false,
+    "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
   },
-  "buckets": []
+  "buckets": [
+    {
+      "start": "2026-06-10T22:00:00Z",
+      "end": "2026-06-10T23:00:00Z",
+      "total": 7,
+      "unknownCount": 42,
+      "rawCompletedFlights": 112,
+      "arrivals": [
+        {
+          "airport": "PANC",
+          "count": 2
+        },
+        {
+          "airport": "KSJC",
+          "count": 1
+        },
+        {
+          "airport": "KLAS",
+          "count": 1
+        },
+        {
+          "airport": "KBOS",
+          "count": 1
+        },
+        {
+          "airport": "KDTW",
+          "count": 1
+        },
+        {
+          "airport": "KDFW",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-06-10T23:00:00Z",
+      "end": "2026-06-11T00:00:00Z",
+      "total": 4,
+      "unknownCount": 7,
+      "rawCompletedFlights": 37,
+      "arrivals": [
+        {
+          "airport": "KLGA",
+          "count": 1
+        },
+        {
+          "airport": "KAUS",
+          "count": 1
+        },
+        {
+          "airport": "KBOS",
+          "count": 1
+        },
+        {
+          "airport": "KATL",
+          "count": 1
+        }
+      ]
+    }
+  ]
 }
