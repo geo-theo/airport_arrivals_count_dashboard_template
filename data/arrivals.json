@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-06-20T22:36:14.292955Z",
+    "generatedAt": "2026-06-21T07:10:39.227289Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-06-20T20:00:00Z",
-    "windowEnd": "2026-06-20T22:00:00Z",
+    "windowStart": "2026-06-21T05:00:00Z",
+    "windowEnd": "2026-06-21T07:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
@@ -2135,6 +2135,32 @@
         },
         {
           "airport": "KOAK",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-06-21T05:00:00Z",
+      "end": "2026-06-21T06:00:00Z",
+      "total": 4,
+      "unknownCount": 4,
+      "rawCompletedFlights": 87,
+      "arrivals": [
+        {
+          "airport": "KDEN",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "start": "2026-06-21T06:00:00Z",
+      "end": "2026-06-21T07:00:00Z",
+      "total": 1,
+      "unknownCount": 1,
+      "rawCompletedFlights": 16,
+      "arrivals": [
+        {
+          "airport": "PANC",
           "count": 1
         }
       ]
