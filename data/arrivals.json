@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-07-02T19:53:45.778936Z",
+    "generatedAt": "2026-07-02T21:34:36.635001Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-07-02T17:00:00Z",
-    "windowEnd": "2026-07-02T19:00:00Z",
+    "windowStart": "2026-07-02T19:00:00Z",
+    "windowEnd": "2026-07-02T21:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
@@ -5053,6 +5053,84 @@
         },
         {
           "airport": "KLAS",
+          "count": 1
+        },
+        {
+          "airport": "KSJC",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-07-02T19:00:00Z",
+      "end": "2026-07-02T20:00:00Z",
+      "total": 22,
+      "unknownCount": 77,
+      "rawCompletedFlights": 244,
+      "arrivals": [
+        {
+          "airport": "KBOS",
+          "count": 6
+        },
+        {
+          "airport": "KSJC",
+          "count": 4
+        },
+        {
+          "airport": "KLGA",
+          "count": 3
+        },
+        {
+          "airport": "KMCO",
+          "count": 2
+        },
+        {
+          "airport": "KBWI",
+          "count": 2
+        },
+        {
+          "airport": "KSLC",
+          "count": 1
+        },
+        {
+          "airport": "KMSP",
+          "count": 1
+        },
+        {
+          "airport": "PANC",
+          "count": 1
+        },
+        {
+          "airport": "KJFK",
+          "count": 1
+        },
+        {
+          "airport": "KSAN",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-07-02T20:00:00Z",
+      "end": "2026-07-02T21:00:00Z",
+      "total": 7,
+      "unknownCount": 31,
+      "rawCompletedFlights": 81,
+      "arrivals": [
+        {
+          "airport": "KLAS",
+          "count": 2
+        },
+        {
+          "airport": "KMCO",
+          "count": 2
+        },
+        {
+          "airport": "KOAK",
+          "count": 1
+        },
+        {
+          "airport": "KLGA",
           "count": 1
         },
         {
