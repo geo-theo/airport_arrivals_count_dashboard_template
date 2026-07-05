@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-07-05T00:16:45.774377Z",
+    "generatedAt": "2026-07-05T04:35:09.798325Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-07-04T22:00:00Z",
-    "windowEnd": "2026-07-05T00:00:00Z",
+    "windowStart": "2026-07-05T02:00:00Z",
+    "windowEnd": "2026-07-05T04:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
@@ -5712,6 +5712,48 @@
         },
         {
           "airport": "KEWR",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-07-05T02:00:00Z",
+      "end": "2026-07-05T03:00:00Z",
+      "total": 6,
+      "unknownCount": 3,
+      "rawCompletedFlights": 80,
+      "arrivals": [
+        {
+          "airport": "KPHL",
+          "count": 3
+        },
+        {
+          "airport": "KSLC",
+          "count": 1
+        },
+        {
+          "airport": "KBOS",
+          "count": 1
+        },
+        {
+          "airport": "KSFO",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-07-05T03:00:00Z",
+      "end": "2026-07-05T04:00:00Z",
+      "total": 2,
+      "unknownCount": 1,
+      "rawCompletedFlights": 17,
+      "arrivals": [
+        {
+          "airport": "KSFO",
+          "count": 1
+        },
+        {
+          "airport": "KPHL",
           "count": 1
         }
       ]
