@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-07-07T15:16:25.353292Z",
+    "generatedAt": "2026-07-07T20:16:23.103841Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-07-07T13:00:00Z",
-    "windowEnd": "2026-07-07T15:00:00Z",
+    "windowStart": "2026-07-07T18:00:00Z",
+    "windowEnd": "2026-07-07T20:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
@@ -6194,6 +6194,92 @@
         },
         {
           "airport": "KPHL",
+          "count": 1
+        },
+        {
+          "airport": "KSJC",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-07-07T18:00:00Z",
+      "end": "2026-07-07T19:00:00Z",
+      "total": 25,
+      "unknownCount": 88,
+      "rawCompletedFlights": 244,
+      "arrivals": [
+        {
+          "airport": "KPHL",
+          "count": 5
+        },
+        {
+          "airport": "KBOS",
+          "count": 4
+        },
+        {
+          "airport": "KSJC",
+          "count": 3
+        },
+        {
+          "airport": "PANC",
+          "count": 2
+        },
+        {
+          "airport": "KMSP",
+          "count": 2
+        },
+        {
+          "airport": "KSTL",
+          "count": 2
+        },
+        {
+          "airport": "KLAS",
+          "count": 1
+        },
+        {
+          "airport": "KSNA",
+          "count": 1
+        },
+        {
+          "airport": "KJFK",
+          "count": 1
+        },
+        {
+          "airport": "KSFO",
+          "count": 1
+        },
+        {
+          "airport": "KOAK",
+          "count": 1
+        },
+        {
+          "airport": "KABQ",
+          "count": 1
+        },
+        {
+          "airport": "KLGA",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-07-07T19:00:00Z",
+      "end": "2026-07-07T20:00:00Z",
+      "total": 9,
+      "unknownCount": 21,
+      "rawCompletedFlights": 59,
+      "arrivals": [
+        {
+          "airport": "KPHL",
+          "count": 6
+        },
+        {
+          "airport": "KBNA",
+          "count": 1
+        },
+        {
+          "airport": "KBWI",
           "count": 1
         },
         {
