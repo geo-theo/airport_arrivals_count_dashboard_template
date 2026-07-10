@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-07-10T07:55:40.452270Z",
+    "generatedAt": "2026-07-10T17:09:38.673583Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-07-10T05:00:00Z",
-    "windowEnd": "2026-07-10T07:00:00Z",
+    "windowStart": "2026-07-10T15:00:00Z",
+    "windowEnd": "2026-07-10T17:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
@@ -6953,6 +6953,72 @@
       "unknownCount": 3,
       "rawCompletedFlights": 89,
       "arrivals": [
+        {
+          "airport": "KPHL",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-07-10T15:00:00Z",
+      "end": "2026-07-10T16:00:00Z",
+      "total": 13,
+      "unknownCount": 80,
+      "rawCompletedFlights": 245,
+      "arrivals": [
+        {
+          "airport": "KIAD",
+          "count": 2
+        },
+        {
+          "airport": "KBWI",
+          "count": 2
+        },
+        {
+          "airport": "KPHL",
+          "count": 2
+        },
+        {
+          "airport": "KLGA",
+          "count": 1
+        },
+        {
+          "airport": "KSTL",
+          "count": 1
+        },
+        {
+          "airport": "KMSP",
+          "count": 1
+        },
+        {
+          "airport": "KLAS",
+          "count": 1
+        },
+        {
+          "airport": "KSNA",
+          "count": 1
+        },
+        {
+          "airport": "KBOS",
+          "count": 1
+        },
+        {
+          "airport": "KAUS",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-07-10T16:00:00Z",
+      "end": "2026-07-10T17:00:00Z",
+      "total": 2,
+      "unknownCount": 23,
+      "rawCompletedFlights": 56,
+      "arrivals": [
+        {
+          "airport": "KSMF",
+          "count": 1
+        },
         {
           "airport": "KPHL",
           "count": 1
