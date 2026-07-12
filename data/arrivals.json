@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-07-12T19:32:45.150916Z",
+    "generatedAt": "2026-07-12T22:08:43.016433Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-07-12T17:00:00Z",
-    "windowEnd": "2026-07-12T19:00:00Z",
+    "windowStart": "2026-07-12T20:00:00Z",
+    "windowEnd": "2026-07-12T22:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
@@ -7577,6 +7577,76 @@
         },
         {
           "airport": "KLAS",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-07-12T20:00:00Z",
+      "end": "2026-07-12T21:00:00Z",
+      "total": 14,
+      "unknownCount": 69,
+      "rawCompletedFlights": 188,
+      "arrivals": [
+        {
+          "airport": "KOAK",
+          "count": 3
+        },
+        {
+          "airport": "KBOS",
+          "count": 3
+        },
+        {
+          "airport": "KPHL",
+          "count": 2
+        },
+        {
+          "airport": "KSLC",
+          "count": 1
+        },
+        {
+          "airport": "KSFO",
+          "count": 1
+        },
+        {
+          "airport": "KTPA",
+          "count": 1
+        },
+        {
+          "airport": "KSJC",
+          "count": 1
+        },
+        {
+          "airport": "KAUS",
+          "count": 1
+        },
+        {
+          "airport": "KPHX",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-07-12T21:00:00Z",
+      "end": "2026-07-12T22:00:00Z",
+      "total": 5,
+      "unknownCount": 28,
+      "rawCompletedFlights": 50,
+      "arrivals": [
+        {
+          "airport": "KPHL",
+          "count": 2
+        },
+        {
+          "airport": "KEWR",
+          "count": 1
+        },
+        {
+          "airport": "KOAK",
+          "count": 1
+        },
+        {
+          "airport": "KBOS",
           "count": 1
         }
       ]
