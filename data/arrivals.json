@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-07-12T23:10:11.351152Z",
+    "generatedAt": "2026-07-13T00:11:39.703060Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-07-12T21:00:00Z",
-    "windowEnd": "2026-07-12T23:00:00Z",
+    "windowStart": "2026-07-12T22:00:00Z",
+    "windowEnd": "2026-07-13T00:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
@@ -7666,25 +7666,66 @@
     {
       "start": "2026-07-12T22:00:00Z",
       "end": "2026-07-12T23:00:00Z",
-      "total": 6,
-      "unknownCount": 21,
-      "rawCompletedFlights": 44,
+      "total": 21,
+      "unknownCount": 55,
+      "rawCompletedFlights": 138,
       "arrivals": [
         {
+          "airport": "KPHL",
+          "count": 7
+        },
+        {
           "airport": "KLGA",
+          "count": 3
+        },
+        {
+          "airport": "KMSP",
           "count": 2
         },
         {
-          "airport": "KPHL",
+          "airport": "KBOS",
           "count": 2
+        },
+        {
+          "airport": "KSJC",
+          "count": 2
+        },
+        {
+          "airport": "KSLC",
+          "count": 1
+        },
+        {
+          "airport": "KSTL",
+          "count": 1
+        },
+        {
+          "airport": "KBNA",
+          "count": 1
         },
         {
           "airport": "KBWI",
           "count": 1
         },
         {
-          "airport": "KBOS",
+          "airport": "KMSY",
           "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-07-12T23:00:00Z",
+      "end": "2026-07-13T00:00:00Z",
+      "total": 4,
+      "unknownCount": 10,
+      "rawCompletedFlights": 34,
+      "arrivals": [
+        {
+          "airport": "KBOS",
+          "count": 2
+        },
+        {
+          "airport": "KPHL",
+          "count": 2
         }
       ]
     }
