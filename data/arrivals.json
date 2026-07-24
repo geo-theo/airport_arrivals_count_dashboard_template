@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-07-24T03:46:39.883317Z",
+    "generatedAt": "2026-07-24T06:40:22.598128Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-07-24T01:00:00Z",
-    "windowEnd": "2026-07-24T03:00:00Z",
+    "windowStart": "2026-07-24T04:00:00Z",
+    "windowEnd": "2026-07-24T06:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
@@ -9190,6 +9190,27 @@
         },
         {
           "airport": "KDAL",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-07-24T04:00:00Z",
+      "end": "2026-07-24T05:00:00Z",
+      "total": 0,
+      "unknownCount": 9,
+      "rawCompletedFlights": 108,
+      "arrivals": []
+    },
+    {
+      "start": "2026-07-24T05:00:00Z",
+      "end": "2026-07-24T06:00:00Z",
+      "total": 1,
+      "unknownCount": 2,
+      "rawCompletedFlights": 36,
+      "arrivals": [
+        {
+          "airport": "KSEA",
           "count": 1
         }
       ]
