@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-07-24T15:46:42.120046Z",
+    "generatedAt": "2026-07-24T17:53:39.901286Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-07-24T13:00:00Z",
-    "windowEnd": "2026-07-24T15:00:00Z",
+    "windowStart": "2026-07-24T15:00:00Z",
+    "windowEnd": "2026-07-24T17:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
@@ -9308,6 +9308,76 @@
         },
         {
           "airport": "KSFO",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-07-24T15:00:00Z",
+      "end": "2026-07-24T16:00:00Z",
+      "total": 6,
+      "unknownCount": 78,
+      "rawCompletedFlights": 330,
+      "arrivals": [
+        {
+          "airport": "KSLC",
+          "count": 1
+        },
+        {
+          "airport": "KSTL",
+          "count": 1
+        },
+        {
+          "airport": "KSJC",
+          "count": 1
+        },
+        {
+          "airport": "KLGA",
+          "count": 1
+        },
+        {
+          "airport": "KATL",
+          "count": 1
+        },
+        {
+          "airport": "KDFW",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-07-24T16:00:00Z",
+      "end": "2026-07-24T17:00:00Z",
+      "total": 8,
+      "unknownCount": 68,
+      "rawCompletedFlights": 192,
+      "arrivals": [
+        {
+          "airport": "KMSP",
+          "count": 2
+        },
+        {
+          "airport": "KOAK",
+          "count": 1
+        },
+        {
+          "airport": "KMCO",
+          "count": 1
+        },
+        {
+          "airport": "KBOS",
+          "count": 1
+        },
+        {
+          "airport": "KPHX",
+          "count": 1
+        },
+        {
+          "airport": "KDFW",
+          "count": 1
+        },
+        {
+          "airport": "KTPA",
           "count": 1
         }
       ]
