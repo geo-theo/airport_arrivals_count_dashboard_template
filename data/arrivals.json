@@ -1,49 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-07-25T22:11:33.962479Z",
+    "generatedAt": "2026-07-25T23:14:15.971148Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-07-25T20:00:00Z",
-    "windowEnd": "2026-07-25T22:00:00Z",
+    "windowStart": "2026-07-25T21:00:00Z",
+    "windowEnd": "2026-07-25T23:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
   },
   "buckets": [
-    {
-      "start": "2026-06-10T22:00:00Z",
-      "end": "2026-06-10T23:00:00Z",
-      "total": 7,
-      "unknownCount": 42,
-      "rawCompletedFlights": 112,
-      "arrivals": [
-        {
-          "airport": "PANC",
-          "count": 2
-        },
-        {
-          "airport": "KSJC",
-          "count": 1
-        },
-        {
-          "airport": "KLAS",
-          "count": 1
-        },
-        {
-          "airport": "KBOS",
-          "count": 1
-        },
-        {
-          "airport": "KDTW",
-          "count": 1
-        },
-        {
-          "airport": "KDFW",
-          "count": 1
-        }
-      ]
-    },
     {
       "start": "2026-06-10T23:00:00Z",
       "end": "2026-06-11T00:00:00Z",
@@ -9954,10 +9921,22 @@
     {
       "start": "2026-07-25T21:00:00Z",
       "end": "2026-07-25T22:00:00Z",
-      "total": 4,
-      "unknownCount": 16,
-      "rawCompletedFlights": 29,
+      "total": 8,
+      "unknownCount": 33,
+      "rawCompletedFlights": 126,
       "arrivals": [
+        {
+          "airport": "KSJC",
+          "count": 2
+        },
+        {
+          "airport": "KSAT",
+          "count": 1
+        },
+        {
+          "airport": "KPDX",
+          "count": 1
+        },
         {
           "airport": "KDFW",
           "count": 1
@@ -9972,6 +9951,19 @@
         },
         {
           "airport": "KEWR",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-07-25T22:00:00Z",
+      "end": "2026-07-25T23:00:00Z",
+      "total": 1,
+      "unknownCount": 14,
+      "rawCompletedFlights": 35,
+      "arrivals": [
+        {
+          "airport": "KTPA",
           "count": 1
         }
       ]
