@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-07-26T09:24:42.082201Z",
+    "generatedAt": "2026-07-26T11:37:27.820600Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-07-26T07:00:00Z",
-    "windowEnd": "2026-07-26T09:00:00Z",
+    "windowStart": "2026-07-26T09:00:00Z",
+    "windowEnd": "2026-07-26T11:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
@@ -10037,6 +10037,27 @@
           "count": 1
         }
       ]
+    },
+    {
+      "start": "2026-07-26T09:00:00Z",
+      "end": "2026-07-26T10:00:00Z",
+      "total": 1,
+      "unknownCount": 1,
+      "rawCompletedFlights": 148,
+      "arrivals": [
+        {
+          "airport": "KIAD",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-07-26T10:00:00Z",
+      "end": "2026-07-26T11:00:00Z",
+      "total": 0,
+      "unknownCount": 1,
+      "rawCompletedFlights": 35,
+      "arrivals": []
     }
   ]
 }
