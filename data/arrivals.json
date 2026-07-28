@@ -1,32 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-07-28T03:37:51.456198Z",
+    "generatedAt": "2026-07-28T06:41:32.306110Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-07-28T01:00:00Z",
-    "windowEnd": "2026-07-28T03:00:00Z",
+    "windowStart": "2026-07-28T04:00:00Z",
+    "windowEnd": "2026-07-28T06:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
   },
   "buckets": [
-    {
-      "start": "2026-06-13T04:00:00Z",
-      "end": "2026-06-13T05:00:00Z",
-      "total": 0,
-      "unknownCount": 7,
-      "rawCompletedFlights": 91,
-      "arrivals": []
-    },
-    {
-      "start": "2026-06-13T05:00:00Z",
-      "end": "2026-06-13T06:00:00Z",
-      "total": 0,
-      "unknownCount": 3,
-      "rawCompletedFlights": 33,
-      "arrivals": []
-    },
     {
       "start": "2026-06-13T08:00:00Z",
       "end": "2026-06-13T09:00:00Z",
@@ -10535,6 +10519,31 @@
           "count": 1
         }
       ]
+    },
+    {
+      "start": "2026-07-28T04:00:00Z",
+      "end": "2026-07-28T05:00:00Z",
+      "total": 4,
+      "unknownCount": 7,
+      "rawCompletedFlights": 119,
+      "arrivals": [
+        {
+          "airport": "KSLC",
+          "count": 2
+        },
+        {
+          "airport": "KSJC",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "start": "2026-07-28T05:00:00Z",
+      "end": "2026-07-28T06:00:00Z",
+      "total": 0,
+      "unknownCount": 2,
+      "rawCompletedFlights": 35,
+      "arrivals": []
     }
   ]
 }
