@@ -1,41 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-07-29T22:14:50.457050Z",
+    "generatedAt": "2026-07-29T23:17:15.375010Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-07-29T20:00:00Z",
-    "windowEnd": "2026-07-29T22:00:00Z",
+    "windowStart": "2026-07-29T21:00:00Z",
+    "windowEnd": "2026-07-29T23:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
   },
   "buckets": [
-    {
-      "start": "2026-06-14T22:00:00Z",
-      "end": "2026-06-14T23:00:00Z",
-      "total": 4,
-      "unknownCount": 25,
-      "rawCompletedFlights": 65,
-      "arrivals": [
-        {
-          "airport": "KLAS",
-          "count": 1
-        },
-        {
-          "airport": "KLGA",
-          "count": 1
-        },
-        {
-          "airport": "KBOS",
-          "count": 1
-        },
-        {
-          "airport": "KSEA",
-          "count": 1
-        }
-      ]
-    },
     {
       "start": "2026-06-15T03:00:00Z",
       "end": "2026-06-15T04:00:00Z",
@@ -10800,16 +10775,16 @@
     {
       "start": "2026-07-29T21:00:00Z",
       "end": "2026-07-29T22:00:00Z",
-      "total": 8,
-      "unknownCount": 20,
-      "rawCompletedFlights": 53,
+      "total": 12,
+      "unknownCount": 42,
+      "rawCompletedFlights": 160,
       "arrivals": [
         {
-          "airport": "KSJC",
-          "count": 2
+          "airport": "KLGA",
+          "count": 3
         },
         {
-          "airport": "KLGA",
+          "airport": "KSJC",
           "count": 2
         },
         {
@@ -10817,11 +10792,36 @@
           "count": 2
         },
         {
+          "airport": "KEWR",
+          "count": 1
+        },
+        {
+          "airport": "KDFW",
+          "count": 1
+        },
+        {
           "airport": "KBOS",
           "count": 1
         },
         {
+          "airport": "KSAN",
+          "count": 1
+        },
+        {
           "airport": "KDAL",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-07-29T22:00:00Z",
+      "end": "2026-07-29T23:00:00Z",
+      "total": 1,
+      "unknownCount": 22,
+      "rawCompletedFlights": 56,
+      "arrivals": [
+        {
+          "airport": "KLGA",
           "count": 1
         }
       ]
