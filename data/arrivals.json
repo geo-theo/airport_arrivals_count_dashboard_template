@@ -1,45 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-07-30T03:31:15.151618Z",
+    "generatedAt": "2026-07-30T06:42:32.299426Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-07-30T01:00:00Z",
-    "windowEnd": "2026-07-30T03:00:00Z",
+    "windowStart": "2026-07-30T04:00:00Z",
+    "windowEnd": "2026-07-30T06:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
   },
   "buckets": [
-    {
-      "start": "2026-06-15T03:00:00Z",
-      "end": "2026-06-15T04:00:00Z",
-      "total": 3,
-      "unknownCount": 5,
-      "rawCompletedFlights": 87,
-      "arrivals": [
-        {
-          "airport": "KSLC",
-          "count": 1
-        },
-        {
-          "airport": "KOAK",
-          "count": 1
-        },
-        {
-          "airport": "KSJC",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "start": "2026-06-15T04:00:00Z",
-      "end": "2026-06-15T05:00:00Z",
-      "total": 0,
-      "unknownCount": 4,
-      "rawCompletedFlights": 27,
-      "arrivals": []
-    },
     {
       "start": "2026-06-15T16:00:00Z",
       "end": "2026-06-15T17:00:00Z",
@@ -10888,6 +10859,48 @@
         },
         {
           "airport": "KSNA",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-07-30T04:00:00Z",
+      "end": "2026-07-30T05:00:00Z",
+      "total": 3,
+      "unknownCount": 5,
+      "rawCompletedFlights": 149,
+      "arrivals": [
+        {
+          "airport": "KSLC",
+          "count": 1
+        },
+        {
+          "airport": "KIAD",
+          "count": 1
+        },
+        {
+          "airport": "KSAN",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-07-30T05:00:00Z",
+      "end": "2026-07-30T06:00:00Z",
+      "total": 3,
+      "unknownCount": 4,
+      "rawCompletedFlights": 54,
+      "arrivals": [
+        {
+          "airport": "PANC",
+          "count": 1
+        },
+        {
+          "airport": "KDEN",
+          "count": 1
+        },
+        {
+          "airport": "KSMF",
           "count": 1
         }
       ]
