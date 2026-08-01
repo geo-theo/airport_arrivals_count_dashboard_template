@@ -1,70 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-08-01T19:36:51.428723Z",
+    "generatedAt": "2026-08-01T21:10:16.330873Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-08-01T17:00:00Z",
-    "windowEnd": "2026-08-01T19:00:00Z",
+    "windowStart": "2026-08-01T19:00:00Z",
+    "windowEnd": "2026-08-01T21:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
   },
   "buckets": [
-    {
-      "start": "2026-06-17T19:00:00Z",
-      "end": "2026-06-17T20:00:00Z",
-      "total": 11,
-      "unknownCount": 50,
-      "rawCompletedFlights": 195,
-      "arrivals": [
-        {
-          "airport": "KLGA",
-          "count": 3
-        },
-        {
-          "airport": "KBOS",
-          "count": 3
-        },
-        {
-          "airport": "KAUS",
-          "count": 2
-        },
-        {
-          "airport": "KSJC",
-          "count": 1
-        },
-        {
-          "airport": "KPHX",
-          "count": 1
-        },
-        {
-          "airport": "KATL",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "start": "2026-06-17T20:00:00Z",
-      "end": "2026-06-17T21:00:00Z",
-      "total": 3,
-      "unknownCount": 22,
-      "rawCompletedFlights": 44,
-      "arrivals": [
-        {
-          "airport": "KPHX",
-          "count": 1
-        },
-        {
-          "airport": "KSJC",
-          "count": 1
-        },
-        {
-          "airport": "KLAS",
-          "count": 1
-        }
-      ]
-    },
     {
       "start": "2026-06-17T21:00:00Z",
       "end": "2026-06-17T22:00:00Z",
@@ -11796,6 +11742,55 @@
           "count": 1
         }
       ]
+    },
+    {
+      "start": "2026-08-01T19:00:00Z",
+      "end": "2026-08-01T20:00:00Z",
+      "total": 11,
+      "unknownCount": 40,
+      "rawCompletedFlights": 170,
+      "arrivals": [
+        {
+          "airport": "KSJC",
+          "count": 4
+        },
+        {
+          "airport": "PANC",
+          "count": 1
+        },
+        {
+          "airport": "KSAN",
+          "count": 1
+        },
+        {
+          "airport": "KPHX",
+          "count": 1
+        },
+        {
+          "airport": "KSFO",
+          "count": 1
+        },
+        {
+          "airport": "KAUS",
+          "count": 1
+        },
+        {
+          "airport": "KOAK",
+          "count": 1
+        },
+        {
+          "airport": "KDFW",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-08-01T20:00:00Z",
+      "end": "2026-08-01T21:00:00Z",
+      "total": 0,
+      "unknownCount": 10,
+      "rawCompletedFlights": 31,
+      "arrivals": []
     }
   ]
 }
