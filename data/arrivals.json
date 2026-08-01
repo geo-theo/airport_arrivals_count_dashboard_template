@@ -1,41 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-08-01T22:12:03.485058Z",
+    "generatedAt": "2026-08-01T23:12:47.413506Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-08-01T20:00:00Z",
-    "windowEnd": "2026-08-01T22:00:00Z",
+    "windowStart": "2026-08-01T21:00:00Z",
+    "windowEnd": "2026-08-01T23:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
   },
   "buckets": [
-    {
-      "start": "2026-06-17T22:00:00Z",
-      "end": "2026-06-17T23:00:00Z",
-      "total": 9,
-      "unknownCount": 40,
-      "rawCompletedFlights": 94,
-      "arrivals": [
-        {
-          "airport": "KBOS",
-          "count": 5
-        },
-        {
-          "airport": "KLGA",
-          "count": 2
-        },
-        {
-          "airport": "PANC",
-          "count": 1
-        },
-        {
-          "airport": "KLAS",
-          "count": 1
-        }
-      ]
-    },
     {
       "start": "2026-06-18T07:00:00Z",
       "end": "2026-06-18T08:00:00Z",
@@ -11775,12 +11750,20 @@
     {
       "start": "2026-08-01T21:00:00Z",
       "end": "2026-08-01T22:00:00Z",
-      "total": 3,
-      "unknownCount": 8,
-      "rawCompletedFlights": 23,
+      "total": 5,
+      "unknownCount": 33,
+      "rawCompletedFlights": 116,
       "arrivals": [
         {
           "airport": "KMSP",
+          "count": 1
+        },
+        {
+          "airport": "KMCO",
+          "count": 1
+        },
+        {
+          "airport": "KSJC",
           "count": 1
         },
         {
@@ -11789,6 +11772,19 @@
         },
         {
           "airport": "KDFW",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-08-01T22:00:00Z",
+      "end": "2026-08-01T23:00:00Z",
+      "total": 1,
+      "unknownCount": 7,
+      "rawCompletedFlights": 21,
+      "arrivals": [
+        {
+          "airport": "KORD",
           "count": 1
         }
       ]
