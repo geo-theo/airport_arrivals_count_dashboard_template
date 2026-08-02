@@ -1,50 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-08-02T06:46:07.348061Z",
+    "generatedAt": "2026-08-02T09:23:02.180657Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-08-02T04:00:00Z",
-    "windowEnd": "2026-08-02T06:00:00Z",
+    "windowStart": "2026-08-02T07:00:00Z",
+    "windowEnd": "2026-08-02T09:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
   },
   "buckets": [
-    {
-      "start": "2026-06-18T07:00:00Z",
-      "end": "2026-06-18T08:00:00Z",
-      "total": 2,
-      "unknownCount": 1,
-      "rawCompletedFlights": 169,
-      "arrivals": [
-        {
-          "airport": "PANC",
-          "count": 1
-        },
-        {
-          "airport": "KBOS",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "start": "2026-06-18T08:00:00Z",
-      "end": "2026-06-18T09:00:00Z",
-      "total": 2,
-      "unknownCount": 4,
-      "rawCompletedFlights": 82,
-      "arrivals": [
-        {
-          "airport": "KJFK",
-          "count": 1
-        },
-        {
-          "airport": "KSEA",
-          "count": 1
-        }
-      ]
-    },
     {
       "start": "2026-06-18T18:00:00Z",
       "end": "2026-06-18T19:00:00Z",
@@ -11911,6 +11877,27 @@
       "total": 0,
       "unknownCount": 0,
       "rawCompletedFlights": 41,
+      "arrivals": []
+    },
+    {
+      "start": "2026-08-02T07:00:00Z",
+      "end": "2026-08-02T08:00:00Z",
+      "total": 1,
+      "unknownCount": 2,
+      "rawCompletedFlights": 134,
+      "arrivals": [
+        {
+          "airport": "KHOU",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-08-02T08:00:00Z",
+      "end": "2026-08-02T09:00:00Z",
+      "total": 0,
+      "unknownCount": 1,
+      "rawCompletedFlights": 29,
       "arrivals": []
     }
   ]
