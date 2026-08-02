@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-08-02T13:57:16.417281Z",
+    "generatedAt": "2026-08-02T15:28:41.432105Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-08-02T11:00:00Z",
-    "windowEnd": "2026-08-02T13:00:00Z",
+    "windowStart": "2026-08-02T13:00:00Z",
+    "windowEnd": "2026-08-02T15:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
@@ -11950,6 +11950,52 @@
         },
         {
           "airport": "KDAL",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-08-02T13:00:00Z",
+      "end": "2026-08-02T14:00:00Z",
+      "total": 2,
+      "unknownCount": 30,
+      "rawCompletedFlights": 193,
+      "arrivals": [
+        {
+          "airport": "KDFW",
+          "count": 1
+        },
+        {
+          "airport": "KMSP",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-08-02T14:00:00Z",
+      "end": "2026-08-02T15:00:00Z",
+      "total": 5,
+      "unknownCount": 18,
+      "rawCompletedFlights": 70,
+      "arrivals": [
+        {
+          "airport": "KDAL",
+          "count": 1
+        },
+        {
+          "airport": "KLGA",
+          "count": 1
+        },
+        {
+          "airport": "KMSP",
+          "count": 1
+        },
+        {
+          "airport": "PANC",
+          "count": 1
+        },
+        {
+          "airport": "KDFW",
           "count": 1
         }
       ]
