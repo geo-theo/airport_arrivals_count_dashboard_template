@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-08-03T19:59:15.773743Z",
+    "generatedAt": "2026-08-03T21:30:40.090585Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-08-03T17:00:00Z",
-    "windowEnd": "2026-08-03T19:00:00Z",
+    "windowStart": "2026-08-03T19:00:00Z",
+    "windowEnd": "2026-08-03T21:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
@@ -12268,6 +12268,72 @@
         },
         {
           "airport": "PANC",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-08-03T19:00:00Z",
+      "end": "2026-08-03T20:00:00Z",
+      "total": 8,
+      "unknownCount": 56,
+      "rawCompletedFlights": 201,
+      "arrivals": [
+        {
+          "airport": "KBOS",
+          "count": 2
+        },
+        {
+          "airport": "KMSP",
+          "count": 1
+        },
+        {
+          "airport": "KSJC",
+          "count": 1
+        },
+        {
+          "airport": "KSAN",
+          "count": 1
+        },
+        {
+          "airport": "KPHX",
+          "count": 1
+        },
+        {
+          "airport": "KAUS",
+          "count": 1
+        },
+        {
+          "airport": "KMSY",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-08-03T20:00:00Z",
+      "end": "2026-08-03T21:00:00Z",
+      "total": 5,
+      "unknownCount": 22,
+      "rawCompletedFlights": 72,
+      "arrivals": [
+        {
+          "airport": "KDCA",
+          "count": 1
+        },
+        {
+          "airport": "KPDX",
+          "count": 1
+        },
+        {
+          "airport": "KATL",
+          "count": 1
+        },
+        {
+          "airport": "KIAD",
+          "count": 1
+        },
+        {
+          "airport": "KDFW",
           "count": 1
         }
       ]
