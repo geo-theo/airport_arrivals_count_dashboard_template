@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-07T11:09:42.753807Z",
+    "generatedAt": "2026-08-07T11:58:32.980718Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
@@ -12723,16 +12723,16 @@
       "start": "2026-08-07T09:00:00Z",
       "end": "2026-08-07T10:00:00Z",
       "total": 0,
-      "unknownCount": 3,
-      "rawCompletedFlights": 115,
+      "unknownCount": 4,
+      "rawCompletedFlights": 174,
       "arrivals": []
     },
     {
       "start": "2026-08-07T10:00:00Z",
       "end": "2026-08-07T11:00:00Z",
       "total": 1,
-      "unknownCount": 0,
-      "rawCompletedFlights": 15,
+      "unknownCount": 4,
+      "rawCompletedFlights": 86,
       "arrivals": [
         {
           "airport": "KAUS",
