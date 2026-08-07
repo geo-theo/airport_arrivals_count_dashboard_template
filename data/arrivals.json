@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-07T21:00:09.603494Z",
+    "generatedAt": "2026-08-07T21:56:20.628100Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
@@ -12850,16 +12850,20 @@
     {
       "start": "2026-08-07T19:00:00Z",
       "end": "2026-08-07T20:00:00Z",
-      "total": 6,
-      "unknownCount": 47,
-      "rawCompletedFlights": 166,
+      "total": 8,
+      "unknownCount": 68,
+      "rawCompletedFlights": 268,
       "arrivals": [
         {
           "airport": "KSJC",
-          "count": 3
+          "count": 4
         },
         {
           "airport": "KPDX",
+          "count": 1
+        },
+        {
+          "airport": "KMSP",
           "count": 1
         },
         {
@@ -12875,10 +12879,31 @@
     {
       "start": "2026-08-07T20:00:00Z",
       "end": "2026-08-07T21:00:00Z",
-      "total": 0,
-      "unknownCount": 13,
-      "rawCompletedFlights": 28,
-      "arrivals": []
+      "total": 5,
+      "unknownCount": 44,
+      "rawCompletedFlights": 135,
+      "arrivals": [
+        {
+          "airport": "KSLC",
+          "count": 1
+        },
+        {
+          "airport": "KDEN",
+          "count": 1
+        },
+        {
+          "airport": "KOAK",
+          "count": 1
+        },
+        {
+          "airport": "KSJC",
+          "count": 1
+        },
+        {
+          "airport": "KSAN",
+          "count": 1
+        }
+      ]
     }
   ]
 }
