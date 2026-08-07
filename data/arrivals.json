@@ -1,33 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-08-07T03:20:09.170003Z",
+    "generatedAt": "2026-08-07T05:51:21.809206Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-08-07T01:00:00Z",
-    "windowEnd": "2026-08-07T03:00:00Z",
+    "windowStart": "2026-08-07T03:00:00Z",
+    "windowEnd": "2026-08-07T05:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
   },
   "buckets": [
-    {
-      "start": "2026-06-23T03:00:00Z",
-      "end": "2026-06-23T04:00:00Z",
-      "total": 2,
-      "unknownCount": 5,
-      "rawCompletedFlights": 31,
-      "arrivals": [
-        {
-          "airport": "KBOS",
-          "count": 1
-        },
-        {
-          "airport": "KSFO",
-          "count": 1
-        }
-      ]
-    },
     {
       "start": "2026-06-23T06:00:00Z",
       "end": "2026-06-23T07:00:00Z",
@@ -12673,6 +12656,52 @@
       "arrivals": [
         {
           "airport": "KBOS",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-08-07T03:00:00Z",
+      "end": "2026-08-07T04:00:00Z",
+      "total": 3,
+      "unknownCount": 16,
+      "rawCompletedFlights": 135,
+      "arrivals": [
+        {
+          "airport": "KSLC",
+          "count": 1
+        },
+        {
+          "airport": "KLGA",
+          "count": 1
+        },
+        {
+          "airport": "KDFW",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-08-07T04:00:00Z",
+      "end": "2026-08-07T05:00:00Z",
+      "total": 4,
+      "unknownCount": 9,
+      "rawCompletedFlights": 50,
+      "arrivals": [
+        {
+          "airport": "KSMF",
+          "count": 1
+        },
+        {
+          "airport": "KOAK",
+          "count": 1
+        },
+        {
+          "airport": "KDFW",
+          "count": 1
+        },
+        {
+          "airport": "KLAS",
           "count": 1
         }
       ]
