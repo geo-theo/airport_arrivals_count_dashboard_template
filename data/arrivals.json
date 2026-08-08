@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-08T13:13:22.389569Z",
+    "generatedAt": "2026-08-08T13:58:53.172361Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
@@ -13040,16 +13040,16 @@
     {
       "start": "2026-08-08T11:00:00Z",
       "end": "2026-08-08T12:00:00Z",
-      "total": 5,
-      "unknownCount": 3,
-      "rawCompletedFlights": 117,
+      "total": 6,
+      "unknownCount": 4,
+      "rawCompletedFlights": 185,
       "arrivals": [
         {
-          "airport": "KIAD",
-          "count": 2
+          "airport": "KBOS",
+          "count": 3
         },
         {
-          "airport": "KBOS",
+          "airport": "KIAD",
           "count": 2
         },
         {
@@ -13061,10 +13061,15 @@
     {
       "start": "2026-08-08T12:00:00Z",
       "end": "2026-08-08T13:00:00Z",
-      "total": 0,
-      "unknownCount": 12,
-      "rawCompletedFlights": 31,
-      "arrivals": []
+      "total": 1,
+      "unknownCount": 16,
+      "rawCompletedFlights": 90,
+      "arrivals": [
+        {
+          "airport": "KMSY",
+          "count": 1
+        }
+      ]
     }
   ]
 }
