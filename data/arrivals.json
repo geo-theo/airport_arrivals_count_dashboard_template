@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-08-08T05:57:43.662499Z",
+    "generatedAt": "2026-08-08T07:16:33.106138Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-08-08T03:00:00Z",
-    "windowEnd": "2026-08-08T05:00:00Z",
+    "windowStart": "2026-08-08T05:00:00Z",
+    "windowEnd": "2026-08-08T07:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
@@ -12980,6 +12980,27 @@
         },
         {
           "airport": "KBOS",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-08-08T05:00:00Z",
+      "end": "2026-08-08T06:00:00Z",
+      "total": 0,
+      "unknownCount": 6,
+      "rawCompletedFlights": 93,
+      "arrivals": []
+    },
+    {
+      "start": "2026-08-08T06:00:00Z",
+      "end": "2026-08-08T07:00:00Z",
+      "total": 1,
+      "unknownCount": 1,
+      "rawCompletedFlights": 25,
+      "arrivals": [
+        {
+          "airport": "KSLC",
           "count": 1
         }
       ]
