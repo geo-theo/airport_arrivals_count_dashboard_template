@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-08-09T15:47:53.683218Z",
+    "generatedAt": "2026-08-09T16:55:31.849276Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-08-09T13:00:00Z",
-    "windowEnd": "2026-08-09T15:00:00Z",
+    "windowStart": "2026-08-09T14:00:00Z",
+    "windowEnd": "2026-08-09T16:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
@@ -13414,9 +13414,9 @@
     {
       "start": "2026-08-09T14:00:00Z",
       "end": "2026-08-09T15:00:00Z",
-      "total": 4,
-      "unknownCount": 27,
-      "rawCompletedFlights": 126,
+      "total": 7,
+      "unknownCount": 59,
+      "rawCompletedFlights": 297,
       "arrivals": [
         {
           "airport": "KDFW",
@@ -13427,7 +13427,64 @@
           "count": 1
         },
         {
+          "airport": "KLAX",
+          "count": 1
+        },
+        {
           "airport": "KSAT",
+          "count": 1
+        },
+        {
+          "airport": "KIAD",
+          "count": 1
+        },
+        {
+          "airport": "KMSP",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-08-09T15:00:00Z",
+      "end": "2026-08-09T16:00:00Z",
+      "total": 10,
+      "unknownCount": 50,
+      "rawCompletedFlights": 159,
+      "arrivals": [
+        {
+          "airport": "KJFK",
+          "count": 2
+        },
+        {
+          "airport": "KLGA",
+          "count": 1
+        },
+        {
+          "airport": "KSTL",
+          "count": 1
+        },
+        {
+          "airport": "KOAK",
+          "count": 1
+        },
+        {
+          "airport": "KDFW",
+          "count": 1
+        },
+        {
+          "airport": "KSEA",
+          "count": 1
+        },
+        {
+          "airport": "KSAT",
+          "count": 1
+        },
+        {
+          "airport": "KBNA",
+          "count": 1
+        },
+        {
+          "airport": "KFLL",
           "count": 1
         }
       ]
