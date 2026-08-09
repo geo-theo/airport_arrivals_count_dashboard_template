@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-08-09T13:16:32.888642Z",
+    "generatedAt": "2026-08-09T14:02:19.842735Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-08-09T11:00:00Z",
-    "windowEnd": "2026-08-09T13:00:00Z",
+    "windowStart": "2026-08-09T12:00:00Z",
+    "windowEnd": "2026-08-09T14:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
@@ -13369,11 +13369,24 @@
       "start": "2026-08-09T12:00:00Z",
       "end": "2026-08-09T13:00:00Z",
       "total": 1,
-      "unknownCount": 5,
-      "rawCompletedFlights": 31,
+      "unknownCount": 9,
+      "rawCompletedFlights": 112,
       "arrivals": [
         {
           "airport": "KDFW",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-08-09T13:00:00Z",
+      "end": "2026-08-09T14:00:00Z",
+      "total": 1,
+      "unknownCount": 8,
+      "rawCompletedFlights": 22,
+      "arrivals": [
+        {
+          "airport": "KSAT",
           "count": 1
         }
       ]
