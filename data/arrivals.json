@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-08-10T22:57:25.040523Z",
+    "generatedAt": "2026-08-10T23:51:36.664005Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-08-10T20:00:00Z",
-    "windowEnd": "2026-08-10T22:00:00Z",
+    "windowStart": "2026-08-10T21:00:00Z",
+    "windowEnd": "2026-08-10T23:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
@@ -13825,9 +13825,9 @@
     {
       "start": "2026-08-10T21:00:00Z",
       "end": "2026-08-10T22:00:00Z",
-      "total": 5,
-      "unknownCount": 31,
-      "rawCompletedFlights": 93,
+      "total": 7,
+      "unknownCount": 44,
+      "rawCompletedFlights": 167,
       "arrivals": [
         {
           "airport": "KSTL",
@@ -13846,7 +13846,36 @@
           "count": 1
         },
         {
+          "airport": "KSFO",
+          "count": 1
+        },
+        {
           "airport": "KDAL",
+          "count": 1
+        },
+        {
+          "airport": "KBOS",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-08-10T22:00:00Z",
+      "end": "2026-08-10T23:00:00Z",
+      "total": 5,
+      "unknownCount": 35,
+      "rawCompletedFlights": 85,
+      "arrivals": [
+        {
+          "airport": "KAUS",
+          "count": 3
+        },
+        {
+          "airport": "KEWR",
+          "count": 1
+        },
+        {
+          "airport": "KSJC",
           "count": 1
         }
       ]
