@@ -1,32 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-08-11T07:38:45.792685Z",
+    "generatedAt": "2026-08-11T09:14:42.395220Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-08-11T05:00:00Z",
-    "windowEnd": "2026-08-11T07:00:00Z",
+    "windowStart": "2026-08-11T07:00:00Z",
+    "windowEnd": "2026-08-11T09:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
   },
   "buckets": [
-    {
-      "start": "2026-06-27T07:00:00Z",
-      "end": "2026-06-27T08:00:00Z",
-      "total": 0,
-      "unknownCount": 4,
-      "rawCompletedFlights": 90,
-      "arrivals": []
-    },
-    {
-      "start": "2026-06-27T08:00:00Z",
-      "end": "2026-06-27T09:00:00Z",
-      "total": 0,
-      "unknownCount": 0,
-      "rawCompletedFlights": 18,
-      "arrivals": []
-    },
     {
       "start": "2026-06-27T12:00:00Z",
       "end": "2026-06-27T13:00:00Z",
@@ -13975,6 +13959,27 @@
       "unknownCount": 1,
       "rawCompletedFlights": 38,
       "arrivals": []
+    },
+    {
+      "start": "2026-08-11T07:00:00Z",
+      "end": "2026-08-11T08:00:00Z",
+      "total": 0,
+      "unknownCount": 1,
+      "rawCompletedFlights": 117,
+      "arrivals": []
+    },
+    {
+      "start": "2026-08-11T08:00:00Z",
+      "end": "2026-08-11T09:00:00Z",
+      "total": 1,
+      "unknownCount": 1,
+      "rawCompletedFlights": 25,
+      "arrivals": [
+        {
+          "airport": "KJFK",
+          "count": 1
+        }
+      ]
     }
   ]
 }
