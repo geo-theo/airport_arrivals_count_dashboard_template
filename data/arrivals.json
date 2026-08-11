@@ -1,37 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-08-11T17:14:01.606051Z",
+    "generatedAt": "2026-08-11T18:08:39.273001Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-08-11T15:00:00Z",
-    "windowEnd": "2026-08-11T17:00:00Z",
+    "windowStart": "2026-08-11T16:00:00Z",
+    "windowEnd": "2026-08-11T18:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
   },
   "buckets": [
-    {
-      "start": "2026-06-27T17:00:00Z",
-      "end": "2026-06-27T18:00:00Z",
-      "total": 3,
-      "unknownCount": 21,
-      "rawCompletedFlights": 57,
-      "arrivals": [
-        {
-          "airport": "KBOS",
-          "count": 1
-        },
-        {
-          "airport": "KSAN",
-          "count": 1
-        },
-        {
-          "airport": "KBWI",
-          "count": 1
-        }
-      ]
-    },
     {
       "start": "2026-06-27T20:00:00Z",
       "end": "2026-06-27T21:00:00Z",
@@ -14002,16 +13981,41 @@
     {
       "start": "2026-08-11T16:00:00Z",
       "end": "2026-08-11T17:00:00Z",
-      "total": 2,
-      "unknownCount": 17,
-      "rawCompletedFlights": 43,
+      "total": 4,
+      "unknownCount": 54,
+      "rawCompletedFlights": 204,
       "arrivals": [
         {
           "airport": "KSTL",
           "count": 1
         },
         {
+          "airport": "KEWR",
+          "count": 1
+        },
+        {
+          "airport": "KMCO",
+          "count": 1
+        },
+        {
           "airport": "KMSY",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-08-11T17:00:00Z",
+      "end": "2026-08-11T18:00:00Z",
+      "total": 3,
+      "unknownCount": 20,
+      "rawCompletedFlights": 49,
+      "arrivals": [
+        {
+          "airport": "KAUS",
+          "count": 2
+        },
+        {
+          "airport": "KOAK",
           "count": 1
         }
       ]
