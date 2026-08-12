@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-12T23:02:54.784354Z",
+    "generatedAt": "2026-08-12T23:59:17.467224Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
@@ -14337,16 +14337,24 @@
     {
       "start": "2026-08-12T21:00:00Z",
       "end": "2026-08-12T22:00:00Z",
-      "total": 8,
-      "unknownCount": 50,
-      "rawCompletedFlights": 148,
+      "total": 17,
+      "unknownCount": 66,
+      "rawCompletedFlights": 219,
       "arrivals": [
         {
-          "airport": "KMCO",
-          "count": 2
+          "airport": "KEWR",
+          "count": 4
+        },
+        {
+          "airport": "KAUS",
+          "count": 3
         },
         {
           "airport": "KSJC",
+          "count": 3
+        },
+        {
+          "airport": "KMCO",
           "count": 2
         },
         {
@@ -14354,7 +14362,11 @@
           "count": 1
         },
         {
-          "airport": "KAUS",
+          "airport": "KDFW",
+          "count": 1
+        },
+        {
+          "airport": "KSFO",
           "count": 1
         },
         {
@@ -14370,10 +14382,35 @@
     {
       "start": "2026-08-12T22:00:00Z",
       "end": "2026-08-12T23:00:00Z",
-      "total": 0,
-      "unknownCount": 15,
-      "rawCompletedFlights": 26,
-      "arrivals": []
+      "total": 6,
+      "unknownCount": 39,
+      "rawCompletedFlights": 103,
+      "arrivals": [
+        {
+          "airport": "KSTL",
+          "count": 1
+        },
+        {
+          "airport": "KLGA",
+          "count": 1
+        },
+        {
+          "airport": "PANC",
+          "count": 1
+        },
+        {
+          "airport": "KMSY",
+          "count": 1
+        },
+        {
+          "airport": "KSFO",
+          "count": 1
+        },
+        {
+          "airport": "KOAK",
+          "count": 1
+        }
+      ]
     }
   ]
 }
