@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-13T23:03:56.727126Z",
+    "generatedAt": "2026-08-13T23:59:56.243124Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
@@ -14683,16 +14683,20 @@
     {
       "start": "2026-08-13T21:00:00Z",
       "end": "2026-08-13T22:00:00Z",
-      "total": 4,
-      "unknownCount": 44,
-      "rawCompletedFlights": 127,
+      "total": 7,
+      "unknownCount": 62,
+      "rawCompletedFlights": 219,
       "arrivals": [
         {
-          "airport": "KSJC",
-          "count": 1
+          "airport": "KOAK",
+          "count": 2
         },
         {
           "airport": "KAUS",
+          "count": 2
+        },
+        {
+          "airport": "KSJC",
           "count": 1
         },
         {
@@ -14708,12 +14712,52 @@
     {
       "start": "2026-08-13T22:00:00Z",
       "end": "2026-08-13T23:00:00Z",
-      "total": 1,
-      "unknownCount": 22,
-      "rawCompletedFlights": 35,
+      "total": 12,
+      "unknownCount": 40,
+      "rawCompletedFlights": 126,
       "arrivals": [
         {
+          "airport": "KAUS",
+          "count": 2
+        },
+        {
+          "airport": "KMSP",
+          "count": 1
+        },
+        {
+          "airport": "KSTL",
+          "count": 1
+        },
+        {
+          "airport": "KEWR",
+          "count": 1
+        },
+        {
+          "airport": "KBOS",
+          "count": 1
+        },
+        {
+          "airport": "KMSY",
+          "count": 1
+        },
+        {
+          "airport": "KSAN",
+          "count": 1
+        },
+        {
+          "airport": "KLGA",
+          "count": 1
+        },
+        {
+          "airport": "KDEN",
+          "count": 1
+        },
+        {
           "airport": "KDFW",
+          "count": 1
+        },
+        {
+          "airport": "KOAK",
           "count": 1
         }
       ]
