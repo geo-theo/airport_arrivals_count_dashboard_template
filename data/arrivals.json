@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-14T19:15:03.560609Z",
+    "generatedAt": "2026-08-14T19:58:03.342138Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
@@ -14856,20 +14856,28 @@
     {
       "start": "2026-08-14T17:00:00Z",
       "end": "2026-08-14T18:00:00Z",
-      "total": 9,
-      "unknownCount": 67,
-      "rawCompletedFlights": 254,
+      "total": 13,
+      "unknownCount": 82,
+      "rawCompletedFlights": 336,
       "arrivals": [
+        {
+          "airport": "KEWR",
+          "count": 3
+        },
+        {
+          "airport": "KLGA",
+          "count": 2
+        },
+        {
+          "airport": "KPHX",
+          "count": 2
+        },
         {
           "airport": "KMDW",
           "count": 2
         },
         {
           "airport": "KSMF",
-          "count": 1
-        },
-        {
-          "airport": "KLGA",
           "count": 1
         },
         {
@@ -14881,15 +14889,7 @@
           "count": 1
         },
         {
-          "airport": "KEWR",
-          "count": 1
-        },
-        {
           "airport": "KAUS",
-          "count": 1
-        },
-        {
-          "airport": "KPHX",
           "count": 1
         }
       ]
@@ -14897,10 +14897,30 @@
     {
       "start": "2026-08-14T18:00:00Z",
       "end": "2026-08-14T19:00:00Z",
-      "total": 4,
-      "unknownCount": 35,
-      "rawCompletedFlights": 61,
+      "total": 12,
+      "unknownCount": 65,
+      "rawCompletedFlights": 165,
       "arrivals": [
+        {
+          "airport": "KMSP",
+          "count": 2
+        },
+        {
+          "airport": "KFLL",
+          "count": 2
+        },
+        {
+          "airport": "KAUS",
+          "count": 2
+        },
+        {
+          "airport": "KSJC",
+          "count": 1
+        },
+        {
+          "airport": "KSTL",
+          "count": 1
+        },
         {
           "airport": "KLGA",
           "count": 1
@@ -14910,11 +14930,11 @@
           "count": 1
         },
         {
-          "airport": "KFLL",
+          "airport": "KEWR",
           "count": 1
         },
         {
-          "airport": "KMSP",
+          "airport": "KDAL",
           "count": 1
         }
       ]
