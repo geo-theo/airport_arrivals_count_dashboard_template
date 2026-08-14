@@ -1,29 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-08-14T18:07:41.206209Z",
+    "generatedAt": "2026-08-14T19:15:03.560609Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-08-14T16:00:00Z",
-    "windowEnd": "2026-08-14T18:00:00Z",
+    "windowStart": "2026-08-14T17:00:00Z",
+    "windowEnd": "2026-08-14T19:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
   },
   "buckets": [
-    {
-      "start": "2026-06-30T18:00:00Z",
-      "end": "2026-06-30T19:00:00Z",
-      "total": 1,
-      "unknownCount": 18,
-      "rawCompletedFlights": 45,
-      "arrivals": [
-        {
-          "airport": "KBOS",
-          "count": 1
-        }
-      ]
-    },
     {
       "start": "2026-06-30T19:00:00Z",
       "end": "2026-06-30T20:00:00Z",
@@ -14869,16 +14856,65 @@
     {
       "start": "2026-08-14T17:00:00Z",
       "end": "2026-08-14T18:00:00Z",
-      "total": 3,
-      "unknownCount": 20,
-      "rawCompletedFlights": 43,
+      "total": 9,
+      "unknownCount": 67,
+      "rawCompletedFlights": 254,
       "arrivals": [
         {
           "airport": "KMDW",
           "count": 2
         },
         {
+          "airport": "KSMF",
+          "count": 1
+        },
+        {
+          "airport": "KLGA",
+          "count": 1
+        },
+        {
+          "airport": "KMCO",
+          "count": 1
+        },
+        {
+          "airport": "KBOS",
+          "count": 1
+        },
+        {
+          "airport": "KEWR",
+          "count": 1
+        },
+        {
+          "airport": "KAUS",
+          "count": 1
+        },
+        {
           "airport": "KPHX",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-08-14T18:00:00Z",
+      "end": "2026-08-14T19:00:00Z",
+      "total": 4,
+      "unknownCount": 35,
+      "rawCompletedFlights": 61,
+      "arrivals": [
+        {
+          "airport": "KLGA",
+          "count": 1
+        },
+        {
+          "airport": "KSEA",
+          "count": 1
+        },
+        {
+          "airport": "KFLL",
+          "count": 1
+        },
+        {
+          "airport": "KMSP",
           "count": 1
         }
       ]
