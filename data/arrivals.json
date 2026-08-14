@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-08-14T22:41:53.677000Z",
+    "generatedAt": "2026-08-14T23:38:38.842397Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-08-14T20:00:00Z",
-    "windowEnd": "2026-08-14T22:00:00Z",
+    "windowStart": "2026-08-14T21:00:00Z",
+    "windowEnd": "2026-08-14T23:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
@@ -14994,28 +14994,65 @@
     {
       "start": "2026-08-14T21:00:00Z",
       "end": "2026-08-14T22:00:00Z",
-      "total": 7,
-      "unknownCount": 35,
-      "rawCompletedFlights": 92,
+      "total": 11,
+      "unknownCount": 56,
+      "rawCompletedFlights": 182,
       "arrivals": [
         {
           "airport": "KLGA",
-          "count": 2
+          "count": 3
         },
         {
           "airport": "PANC",
           "count": 2
         },
         {
+          "airport": "KPHL",
+          "count": 2
+        },
+        {
+          "airport": "KSTL",
+          "count": 1
+        },
+        {
           "airport": "KPHX",
           "count": 1
         },
         {
-          "airport": "KPHL",
+          "airport": "KBOS",
           "count": 1
         },
         {
           "airport": "KDFW",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-08-14T22:00:00Z",
+      "end": "2026-08-14T23:00:00Z",
+      "total": 7,
+      "unknownCount": 35,
+      "rawCompletedFlights": 79,
+      "arrivals": [
+        {
+          "airport": "KAUS",
+          "count": 3
+        },
+        {
+          "airport": "KMSP",
+          "count": 1
+        },
+        {
+          "airport": "KSFO",
+          "count": 1
+        },
+        {
+          "airport": "KLGA",
+          "count": 1
+        },
+        {
+          "airport": "KOAK",
           "count": 1
         }
       ]
