@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-16T07:00:34.877155Z",
+    "generatedAt": "2026-08-16T07:46:35.754948Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
@@ -15520,8 +15520,8 @@
       "start": "2026-08-16T05:00:00Z",
       "end": "2026-08-16T06:00:00Z",
       "total": 6,
-      "unknownCount": 1,
-      "rawCompletedFlights": 109,
+      "unknownCount": 5,
+      "rawCompletedFlights": 236,
       "arrivals": [
         {
           "airport": "PANC",
@@ -15554,7 +15554,7 @@
       "end": "2026-08-16T07:00:00Z",
       "total": 0,
       "unknownCount": 1,
-      "rawCompletedFlights": 16,
+      "rawCompletedFlights": 65,
       "arrivals": []
     }
   ]
