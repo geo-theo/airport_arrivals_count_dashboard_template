@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-17T09:01:51.383699Z",
+    "generatedAt": "2026-08-17T09:58:42.684862Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
@@ -15911,8 +15911,8 @@
       "start": "2026-08-17T07:00:00Z",
       "end": "2026-08-17T08:00:00Z",
       "total": 1,
-      "unknownCount": 2,
-      "rawCompletedFlights": 93,
+      "unknownCount": 3,
+      "rawCompletedFlights": 190,
       "arrivals": [
         {
           "airport": "KPHX",
@@ -15925,7 +15925,7 @@
       "end": "2026-08-17T09:00:00Z",
       "total": 0,
       "unknownCount": 0,
-      "rawCompletedFlights": 12,
+      "rawCompletedFlights": 79,
       "arrivals": []
     }
   ]
