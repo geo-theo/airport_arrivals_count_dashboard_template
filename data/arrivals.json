@@ -1,37 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-08-17T11:42:21.200026Z",
+    "generatedAt": "2026-08-17T13:07:14.376374Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-08-17T09:00:00Z",
-    "windowEnd": "2026-08-17T11:00:00Z",
+    "windowStart": "2026-08-17T11:00:00Z",
+    "windowEnd": "2026-08-17T13:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
   },
   "buckets": [
-    {
-      "start": "2026-07-03T11:00:00Z",
-      "end": "2026-07-03T12:00:00Z",
-      "total": 2,
-      "unknownCount": 8,
-      "rawCompletedFlights": 123,
-      "arrivals": [
-        {
-          "airport": "KBOS",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "start": "2026-07-03T12:00:00Z",
-      "end": "2026-07-03T13:00:00Z",
-      "total": 0,
-      "unknownCount": 10,
-      "rawCompletedFlights": 23,
-      "arrivals": []
-    },
     {
       "start": "2026-07-03T13:00:00Z",
       "end": "2026-07-03T14:00:00Z",
@@ -15932,6 +15911,43 @@
           "count": 1
         }
       ]
+    },
+    {
+      "start": "2026-08-17T11:00:00Z",
+      "end": "2026-08-17T12:00:00Z",
+      "total": 8,
+      "unknownCount": 6,
+      "rawCompletedFlights": 115,
+      "arrivals": [
+        {
+          "airport": "KPHL",
+          "count": 4
+        },
+        {
+          "airport": "KMSP",
+          "count": 1
+        },
+        {
+          "airport": "KBOS",
+          "count": 1
+        },
+        {
+          "airport": "KEWR",
+          "count": 1
+        },
+        {
+          "airport": "KMDW",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-08-17T12:00:00Z",
+      "end": "2026-08-17T13:00:00Z",
+      "total": 0,
+      "unknownCount": 5,
+      "rawCompletedFlights": 20,
+      "arrivals": []
     }
   ]
 }
