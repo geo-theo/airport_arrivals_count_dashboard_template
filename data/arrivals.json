@@ -1,58 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-08-18T11:42:29.275021Z",
+    "generatedAt": "2026-08-18T13:09:33.455190Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-08-18T09:00:00Z",
-    "windowEnd": "2026-08-18T11:00:00Z",
+    "windowStart": "2026-08-18T11:00:00Z",
+    "windowEnd": "2026-08-18T13:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
   },
   "buckets": [
-    {
-      "start": "2026-07-04T11:00:00Z",
-      "end": "2026-07-04T12:00:00Z",
-      "total": 11,
-      "unknownCount": 3,
-      "rawCompletedFlights": 170,
-      "arrivals": [
-        {
-          "airport": "KBOS",
-          "count": 6
-        },
-        {
-          "airport": "KBWI",
-          "count": 3
-        },
-        {
-          "airport": "KPHL",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "start": "2026-07-04T12:00:00Z",
-      "end": "2026-07-04T13:00:00Z",
-      "total": 7,
-      "unknownCount": 7,
-      "rawCompletedFlights": 123,
-      "arrivals": [
-        {
-          "airport": "KBOS",
-          "count": 3
-        },
-        {
-          "airport": "KMCO",
-          "count": 2
-        },
-        {
-          "airport": "KPHL",
-          "count": 2
-        }
-      ]
-    },
     {
       "start": "2026-07-04T13:00:00Z",
       "end": "2026-07-04T14:00:00Z",
@@ -16448,6 +16406,32 @@
       "arrivals": [
         {
           "airport": "KDFW",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-08-18T11:00:00Z",
+      "end": "2026-08-18T12:00:00Z",
+      "total": 1,
+      "unknownCount": 8,
+      "rawCompletedFlights": 154,
+      "arrivals": [
+        {
+          "airport": "KJFK",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-08-18T12:00:00Z",
+      "end": "2026-08-18T13:00:00Z",
+      "total": 1,
+      "unknownCount": 7,
+      "rawCompletedFlights": 25,
+      "arrivals": [
+        {
+          "airport": "KBOS",
           "count": 1
         }
       ]
