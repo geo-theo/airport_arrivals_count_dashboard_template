@@ -1,24 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-08-18T08:54:20.023177Z",
+    "generatedAt": "2026-08-18T09:49:39.657141Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-08-18T06:00:00Z",
-    "windowEnd": "2026-08-18T08:00:00Z",
+    "windowStart": "2026-08-18T07:00:00Z",
+    "windowEnd": "2026-08-18T09:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
   },
   "buckets": [
-    {
-      "start": "2026-07-04T08:00:00Z",
-      "end": "2026-07-04T09:00:00Z",
-      "total": 0,
-      "unknownCount": 0,
-      "rawCompletedFlights": 43,
-      "arrivals": []
-    },
     {
       "start": "2026-07-04T11:00:00Z",
       "end": "2026-07-04T12:00:00Z",
@@ -16427,8 +16419,16 @@
       "start": "2026-08-18T07:00:00Z",
       "end": "2026-08-18T08:00:00Z",
       "total": 0,
+      "unknownCount": 1,
+      "rawCompletedFlights": 180,
+      "arrivals": []
+    },
+    {
+      "start": "2026-08-18T08:00:00Z",
+      "end": "2026-08-18T09:00:00Z",
+      "total": 0,
       "unknownCount": 0,
-      "rawCompletedFlights": 68,
+      "rawCompletedFlights": 75,
       "arrivals": []
     }
   ]
