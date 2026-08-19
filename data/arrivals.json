@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-19T07:06:30.811875Z",
+    "generatedAt": "2026-08-19T07:54:53.998266Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
@@ -16736,8 +16736,8 @@
       "start": "2026-08-19T05:00:00Z",
       "end": "2026-08-19T06:00:00Z",
       "total": 3,
-      "unknownCount": 2,
-      "rawCompletedFlights": 94,
+      "unknownCount": 4,
+      "rawCompletedFlights": 160,
       "arrivals": [
         {
           "airport": "KSEA",
@@ -16758,7 +16758,7 @@
       "end": "2026-08-19T07:00:00Z",
       "total": 0,
       "unknownCount": 2,
-      "rawCompletedFlights": 16,
+      "rawCompletedFlights": 83,
       "arrivals": []
     }
   ]
