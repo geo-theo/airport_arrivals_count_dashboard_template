@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-19T13:10:38.026963Z",
+    "generatedAt": "2026-08-19T13:58:51.002175Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
@@ -16794,16 +16794,36 @@
     {
       "start": "2026-08-19T11:00:00Z",
       "end": "2026-08-19T12:00:00Z",
-      "total": 5,
-      "unknownCount": 13,
-      "rawCompletedFlights": 240,
+      "total": 12,
+      "unknownCount": 17,
+      "rawCompletedFlights": 363,
       "arrivals": [
         {
           "airport": "KCLT",
           "count": 4
         },
         {
+          "airport": "KPHL",
+          "count": 2
+        },
+        {
           "airport": "KEWR",
+          "count": 2
+        },
+        {
+          "airport": "KATL",
+          "count": 1
+        },
+        {
+          "airport": "KJFK",
+          "count": 1
+        },
+        {
+          "airport": "KAUS",
+          "count": 1
+        },
+        {
+          "airport": "KLGA",
           "count": 1
         }
       ]
@@ -16811,10 +16831,14 @@
     {
       "start": "2026-08-19T12:00:00Z",
       "end": "2026-08-19T13:00:00Z",
-      "total": 1,
-      "unknownCount": 12,
-      "rawCompletedFlights": 48,
+      "total": 2,
+      "unknownCount": 20,
+      "rawCompletedFlights": 154,
       "arrivals": [
+        {
+          "airport": "KDFW",
+          "count": 1
+        },
         {
           "airport": "KLGA",
           "count": 1
