@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-08-20T09:50:49.712390Z",
+    "generatedAt": "2026-08-20T10:48:43.862511Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-08-20T07:00:00Z",
-    "windowEnd": "2026-08-20T09:00:00Z",
+    "windowStart": "2026-08-20T08:00:00Z",
+    "windowEnd": "2026-08-20T10:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
@@ -17268,9 +17268,22 @@
       "start": "2026-08-20T08:00:00Z",
       "end": "2026-08-20T09:00:00Z",
       "total": 0,
-      "unknownCount": 2,
-      "rawCompletedFlights": 81,
+      "unknownCount": 3,
+      "rawCompletedFlights": 184,
       "arrivals": []
+    },
+    {
+      "start": "2026-08-20T09:00:00Z",
+      "end": "2026-08-20T10:00:00Z",
+      "total": 1,
+      "unknownCount": 1,
+      "rawCompletedFlights": 91,
+      "arrivals": [
+        {
+          "airport": "KDEN",
+          "count": 1
+        }
+      ]
     }
   ]
 }
