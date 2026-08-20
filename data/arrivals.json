@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-08-20T22:46:15.673417Z",
+    "generatedAt": "2026-08-20T23:41:37.198993Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-08-20T20:00:00Z",
-    "windowEnd": "2026-08-20T22:00:00Z",
+    "windowStart": "2026-08-20T21:00:00Z",
+    "windowEnd": "2026-08-20T23:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
@@ -17585,16 +17585,65 @@
     {
       "start": "2026-08-20T21:00:00Z",
       "end": "2026-08-20T22:00:00Z",
-      "total": 2,
-      "unknownCount": 28,
-      "rawCompletedFlights": 87,
+      "total": 5,
+      "unknownCount": 42,
+      "rawCompletedFlights": 188,
       "arrivals": [
+        {
+          "airport": "KMSP",
+          "count": 1
+        },
+        {
+          "airport": "KAUS",
+          "count": 1
+        },
         {
           "airport": "KOAK",
           "count": 1
         },
         {
           "airport": "KRDU",
+          "count": 1
+        },
+        {
+          "airport": "KDFW",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-08-20T22:00:00Z",
+      "end": "2026-08-20T23:00:00Z",
+      "total": 7,
+      "unknownCount": 21,
+      "rawCompletedFlights": 81,
+      "arrivals": [
+        {
+          "airport": "KMCO",
+          "count": 1
+        },
+        {
+          "airport": "KLAS",
+          "count": 1
+        },
+        {
+          "airport": "KAUS",
+          "count": 1
+        },
+        {
+          "airport": "KBOS",
+          "count": 1
+        },
+        {
+          "airport": "KSFO",
+          "count": 1
+        },
+        {
+          "airport": "KDFW",
+          "count": 1
+        },
+        {
+          "airport": "KDEN",
           "count": 1
         }
       ]
