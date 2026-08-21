@@ -1,41 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-08-21T13:59:24.925197Z",
+    "generatedAt": "2026-08-21T14:54:16.596879Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-08-21T11:00:00Z",
-    "windowEnd": "2026-08-21T13:00:00Z",
+    "windowStart": "2026-08-21T12:00:00Z",
+    "windowEnd": "2026-08-21T14:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
   },
   "buckets": [
-    {
-      "start": "2026-07-07T13:00:00Z",
-      "end": "2026-07-07T14:00:00Z",
-      "total": 11,
-      "unknownCount": 45,
-      "rawCompletedFlights": 205,
-      "arrivals": [
-        {
-          "airport": "KPHL",
-          "count": 7
-        },
-        {
-          "airport": "KBOS",
-          "count": 2
-        },
-        {
-          "airport": "KOAK",
-          "count": 1
-        },
-        {
-          "airport": "KJFK",
-          "count": 1
-        }
-      ]
-    },
     {
       "start": "2026-07-07T14:00:00Z",
       "end": "2026-07-07T15:00:00Z",
@@ -17817,10 +17792,36 @@
     {
       "start": "2026-08-21T12:00:00Z",
       "end": "2026-08-21T13:00:00Z",
-      "total": 0,
-      "unknownCount": 15,
-      "rawCompletedFlights": 135,
-      "arrivals": []
+      "total": 3,
+      "unknownCount": 23,
+      "rawCompletedFlights": 251,
+      "arrivals": [
+        {
+          "airport": "KEWR",
+          "count": 2
+        },
+        {
+          "airport": "KJFK",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-08-21T13:00:00Z",
+      "end": "2026-08-21T14:00:00Z",
+      "total": 2,
+      "unknownCount": 22,
+      "rawCompletedFlights": 107,
+      "arrivals": [
+        {
+          "airport": "KSJC",
+          "count": 1
+        },
+        {
+          "airport": "KPHX",
+          "count": 1
+        }
+      ]
     }
   ]
 }
