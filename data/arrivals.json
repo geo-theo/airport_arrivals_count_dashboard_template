@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-08-21T15:49:14.651585Z",
+    "generatedAt": "2026-08-21T16:52:48.421053Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-08-21T13:00:00Z",
-    "windowEnd": "2026-08-21T15:00:00Z",
+    "windowStart": "2026-08-21T14:00:00Z",
+    "windowEnd": "2026-08-21T16:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
@@ -17817,9 +17817,54 @@
     {
       "start": "2026-08-21T14:00:00Z",
       "end": "2026-08-21T15:00:00Z",
-      "total": 7,
-      "unknownCount": 42,
-      "rawCompletedFlights": 132,
+      "total": 17,
+      "unknownCount": 72,
+      "rawCompletedFlights": 290,
+      "arrivals": [
+        {
+          "airport": "KEWR",
+          "count": 7
+        },
+        {
+          "airport": "KAUS",
+          "count": 2
+        },
+        {
+          "airport": "KLGA",
+          "count": 2
+        },
+        {
+          "airport": "KMCO",
+          "count": 1
+        },
+        {
+          "airport": "KPBI",
+          "count": 1
+        },
+        {
+          "airport": "KPHX",
+          "count": 1
+        },
+        {
+          "airport": "KDEN",
+          "count": 1
+        },
+        {
+          "airport": "KDCA",
+          "count": 1
+        },
+        {
+          "airport": "KOAK",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-08-21T15:00:00Z",
+      "end": "2026-08-21T16:00:00Z",
+      "total": 6,
+      "unknownCount": 48,
+      "rawCompletedFlights": 153,
       "arrivals": [
         {
           "airport": "KEWR",
@@ -17827,14 +17872,14 @@
         },
         {
           "airport": "KLGA",
-          "count": 2
-        },
-        {
-          "airport": "KPBI",
           "count": 1
         },
         {
-          "airport": "KOAK",
+          "airport": "KMSP",
+          "count": 1
+        },
+        {
+          "airport": "KATL",
           "count": 1
         }
       ]
