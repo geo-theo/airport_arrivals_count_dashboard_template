@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-21T13:12:12.875862Z",
+    "generatedAt": "2026-08-21T13:59:24.925197Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
@@ -17800,17 +17800,26 @@
     {
       "start": "2026-08-21T11:00:00Z",
       "end": "2026-08-21T12:00:00Z",
-      "total": 0,
-      "unknownCount": 7,
-      "rawCompletedFlights": 139,
-      "arrivals": []
+      "total": 4,
+      "unknownCount": 12,
+      "rawCompletedFlights": 216,
+      "arrivals": [
+        {
+          "airport": "KJFK",
+          "count": 2
+        },
+        {
+          "airport": "KEWR",
+          "count": 2
+        }
+      ]
     },
     {
       "start": "2026-08-21T12:00:00Z",
       "end": "2026-08-21T13:00:00Z",
       "total": 0,
-      "unknownCount": 9,
-      "rawCompletedFlights": 46,
+      "unknownCount": 15,
+      "rawCompletedFlights": 135,
       "arrivals": []
     }
   ]
