@@ -1,66 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-08-20T23:41:37.198993Z",
+    "generatedAt": "2026-08-21T01:58:24.476478Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-08-20T21:00:00Z",
-    "windowEnd": "2026-08-20T23:00:00Z",
+    "windowStart": "2026-08-20T23:00:00Z",
+    "windowEnd": "2026-08-21T01:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
   },
   "buckets": [
-    {
-      "start": "2026-07-06T23:00:00Z",
-      "end": "2026-07-07T00:00:00Z",
-      "total": 17,
-      "unknownCount": 35,
-      "rawCompletedFlights": 132,
-      "arrivals": [
-        {
-          "airport": "KPHL",
-          "count": 9
-        },
-        {
-          "airport": "KBOS",
-          "count": 3
-        },
-        {
-          "airport": "KMSP",
-          "count": 2
-        },
-        {
-          "airport": "KMSY",
-          "count": 1
-        },
-        {
-          "airport": "KMCO",
-          "count": 1
-        },
-        {
-          "airport": "KSMF",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "start": "2026-07-07T00:00:00Z",
-      "end": "2026-07-07T01:00:00Z",
-      "total": 2,
-      "unknownCount": 11,
-      "rawCompletedFlights": 29,
-      "arrivals": [
-        {
-          "airport": "KBOS",
-          "count": 1
-        },
-        {
-          "airport": "KPHL",
-          "count": 1
-        }
-      ]
-    },
     {
       "start": "2026-07-07T10:00:00Z",
       "end": "2026-07-07T11:00:00Z",
@@ -17644,6 +17594,80 @@
         },
         {
           "airport": "KDEN",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-08-20T23:00:00Z",
+      "end": "2026-08-21T00:00:00Z",
+      "total": 14,
+      "unknownCount": 56,
+      "rawCompletedFlights": 214,
+      "arrivals": [
+        {
+          "airport": "KDFW",
+          "count": 3
+        },
+        {
+          "airport": "KSTL",
+          "count": 2
+        },
+        {
+          "airport": "KSJC",
+          "count": 1
+        },
+        {
+          "airport": "KMSP",
+          "count": 1
+        },
+        {
+          "airport": "KSMF",
+          "count": 1
+        },
+        {
+          "airport": "KSFO",
+          "count": 1
+        },
+        {
+          "airport": "KDEN",
+          "count": 1
+        },
+        {
+          "airport": "KSEA",
+          "count": 1
+        },
+        {
+          "airport": "PANC",
+          "count": 1
+        },
+        {
+          "airport": "KMCO",
+          "count": 1
+        },
+        {
+          "airport": "KLAX",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-08-21T00:00:00Z",
+      "end": "2026-08-21T01:00:00Z",
+      "total": 3,
+      "unknownCount": 29,
+      "rawCompletedFlights": 94,
+      "arrivals": [
+        {
+          "airport": "KSJC",
+          "count": 1
+        },
+        {
+          "airport": "KMSP",
+          "count": 1
+        },
+        {
+          "airport": "KAUS",
           "count": 1
         }
       ]
