@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-22T03:08:26.442913Z",
+    "generatedAt": "2026-08-22T03:57:20.976814Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
@@ -18021,9 +18021,9 @@
     {
       "start": "2026-08-22T01:00:00Z",
       "end": "2026-08-22T02:00:00Z",
-      "total": 3,
-      "unknownCount": 18,
-      "rawCompletedFlights": 72,
+      "total": 4,
+      "unknownCount": 19,
+      "rawCompletedFlights": 116,
       "arrivals": [
         {
           "airport": "KSMF",
@@ -18036,16 +18036,40 @@
         {
           "airport": "KLAX",
           "count": 1
+        },
+        {
+          "airport": "KJFK",
+          "count": 1
         }
       ]
     },
     {
       "start": "2026-08-22T02:00:00Z",
       "end": "2026-08-22T03:00:00Z",
-      "total": 2,
-      "unknownCount": 7,
-      "rawCompletedFlights": 21,
+      "total": 8,
+      "unknownCount": 10,
+      "rawCompletedFlights": 66,
       "arrivals": [
+        {
+          "airport": "KOAK",
+          "count": 2
+        },
+        {
+          "airport": "KSLC",
+          "count": 1
+        },
+        {
+          "airport": "KATL",
+          "count": 1
+        },
+        {
+          "airport": "KSJC",
+          "count": 1
+        },
+        {
+          "airport": "KEWR",
+          "count": 1
+        },
         {
           "airport": "KSFO",
           "count": 1
