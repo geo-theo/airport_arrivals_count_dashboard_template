@@ -1,33 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-08-22T13:45:12.033573Z",
+    "generatedAt": "2026-08-22T14:40:06.276774Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-08-22T11:00:00Z",
-    "windowEnd": "2026-08-22T13:00:00Z",
+    "windowStart": "2026-08-22T12:00:00Z",
+    "windowEnd": "2026-08-22T14:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
   },
   "buckets": [
-    {
-      "start": "2026-07-08T13:00:00Z",
-      "end": "2026-07-08T14:00:00Z",
-      "total": 3,
-      "unknownCount": 32,
-      "rawCompletedFlights": 105,
-      "arrivals": [
-        {
-          "airport": "KPHL",
-          "count": 2
-        },
-        {
-          "airport": "KSJC",
-          "count": 1
-        }
-      ]
-    },
     {
       "start": "2026-07-08T16:00:00Z",
       "end": "2026-07-08T17:00:00Z",
@@ -18116,16 +18099,45 @@
     {
       "start": "2026-08-22T12:00:00Z",
       "end": "2026-08-22T13:00:00Z",
-      "total": 2,
-      "unknownCount": 5,
-      "rawCompletedFlights": 66,
+      "total": 7,
+      "unknownCount": 8,
+      "rawCompletedFlights": 168,
       "arrivals": [
+        {
+          "airport": "KEWR",
+          "count": 2
+        },
+        {
+          "airport": "KMCO",
+          "count": 1
+        },
+        {
+          "airport": "KJFK",
+          "count": 1
+        },
         {
           "airport": "KSJC",
           "count": 1
         },
         {
+          "airport": "KPHL",
+          "count": 1
+        },
+        {
           "airport": "KHOU",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-08-22T13:00:00Z",
+      "end": "2026-08-22T14:00:00Z",
+      "total": 1,
+      "unknownCount": 25,
+      "rawCompletedFlights": 81,
+      "arrivals": [
+        {
+          "airport": "KPHL",
           "count": 1
         }
       ]
