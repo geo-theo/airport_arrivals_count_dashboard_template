@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-22T07:00:27.963189Z",
+    "generatedAt": "2026-08-22T07:46:47.042784Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
@@ -18079,13 +18079,13 @@
     {
       "start": "2026-08-22T05:00:00Z",
       "end": "2026-08-22T06:00:00Z",
-      "total": 2,
+      "total": 3,
       "unknownCount": 3,
-      "rawCompletedFlights": 60,
+      "rawCompletedFlights": 132,
       "arrivals": [
         {
           "airport": "KSFO",
-          "count": 1
+          "count": 2
         },
         {
           "airport": "KSLC",
@@ -18097,8 +18097,8 @@
       "start": "2026-08-22T06:00:00Z",
       "end": "2026-08-22T07:00:00Z",
       "total": 0,
-      "unknownCount": 0,
-      "rawCompletedFlights": 5,
+      "unknownCount": 1,
+      "rawCompletedFlights": 62,
       "arrivals": []
     }
   ]
