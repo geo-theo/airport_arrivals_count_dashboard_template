@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-08-23T09:44:00.475182Z",
+    "generatedAt": "2026-08-23T10:42:48.022684Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-08-23T07:00:00Z",
-    "windowEnd": "2026-08-23T09:00:00Z",
+    "windowStart": "2026-08-23T08:00:00Z",
+    "windowEnd": "2026-08-23T10:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
@@ -18422,9 +18422,22 @@
       "start": "2026-08-23T08:00:00Z",
       "end": "2026-08-23T09:00:00Z",
       "total": 0,
-      "unknownCount": 1,
-      "rawCompletedFlights": 50,
+      "unknownCount": 2,
+      "rawCompletedFlights": 160,
       "arrivals": []
+    },
+    {
+      "start": "2026-08-23T09:00:00Z",
+      "end": "2026-08-23T10:00:00Z",
+      "total": 1,
+      "unknownCount": 0,
+      "rawCompletedFlights": 44,
+      "arrivals": [
+        {
+          "airport": "KEWR",
+          "count": 1
+        }
+      ]
     }
   ]
 }
