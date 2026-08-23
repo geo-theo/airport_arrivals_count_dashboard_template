@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-23T07:02:29.439616Z",
+    "generatedAt": "2026-08-23T07:47:53.930828Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
@@ -18375,9 +18375,9 @@
     {
       "start": "2026-08-23T05:00:00Z",
       "end": "2026-08-23T06:00:00Z",
-      "total": 2,
+      "total": 3,
       "unknownCount": 3,
-      "rawCompletedFlights": 79,
+      "rawCompletedFlights": 132,
       "arrivals": [
         {
           "airport": "KSLC",
@@ -18385,6 +18385,10 @@
         },
         {
           "airport": "PANC",
+          "count": 1
+        },
+        {
+          "airport": "KSJC",
           "count": 1
         }
       ]
@@ -18394,7 +18398,7 @@
       "end": "2026-08-23T07:00:00Z",
       "total": 0,
       "unknownCount": 1,
-      "rawCompletedFlights": 6,
+      "rawCompletedFlights": 50,
       "arrivals": []
     }
   ]
