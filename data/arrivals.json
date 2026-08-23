@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-23T13:03:19.275883Z",
+    "generatedAt": "2026-08-23T13:46:07.864125Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
@@ -18416,7 +18416,7 @@
       "end": "2026-08-23T12:00:00Z",
       "total": 1,
       "unknownCount": 4,
-      "rawCompletedFlights": 95,
+      "rawCompletedFlights": 177,
       "arrivals": [
         {
           "airport": "KEWR",
@@ -18427,10 +18427,19 @@
     {
       "start": "2026-08-23T12:00:00Z",
       "end": "2026-08-23T13:00:00Z",
-      "total": 0,
-      "unknownCount": 2,
-      "rawCompletedFlights": 15,
-      "arrivals": []
+      "total": 2,
+      "unknownCount": 7,
+      "rawCompletedFlights": 82,
+      "arrivals": [
+        {
+          "airport": "KEWR",
+          "count": 1
+        },
+        {
+          "airport": "KLGA",
+          "count": 1
+        }
+      ]
     }
   ]
 }
