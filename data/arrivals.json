@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-08-23T05:46:29.924946Z",
+    "generatedAt": "2026-08-23T07:02:29.439616Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-08-23T03:00:00Z",
-    "windowEnd": "2026-08-23T05:00:00Z",
+    "windowStart": "2026-08-23T05:00:00Z",
+    "windowEnd": "2026-08-23T07:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
@@ -18370,6 +18370,31 @@
       "total": 0,
       "unknownCount": 2,
       "rawCompletedFlights": 34,
+      "arrivals": []
+    },
+    {
+      "start": "2026-08-23T05:00:00Z",
+      "end": "2026-08-23T06:00:00Z",
+      "total": 2,
+      "unknownCount": 3,
+      "rawCompletedFlights": 79,
+      "arrivals": [
+        {
+          "airport": "KSLC",
+          "count": 1
+        },
+        {
+          "airport": "PANC",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-08-23T06:00:00Z",
+      "end": "2026-08-23T07:00:00Z",
+      "total": 0,
+      "unknownCount": 1,
+      "rawCompletedFlights": 6,
       "arrivals": []
     }
   ]
