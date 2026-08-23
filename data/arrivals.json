@@ -1,29 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-08-23T17:35:57.772470Z",
+    "generatedAt": "2026-08-23T18:49:07.552965Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-08-23T15:00:00Z",
-    "windowEnd": "2026-08-23T17:00:00Z",
+    "windowStart": "2026-08-23T16:00:00Z",
+    "windowEnd": "2026-08-23T18:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
   },
   "buckets": [
-    {
-      "start": "2026-07-09T17:00:00Z",
-      "end": "2026-07-09T18:00:00Z",
-      "total": 1,
-      "unknownCount": 33,
-      "rawCompletedFlights": 60,
-      "arrivals": [
-        {
-          "airport": "KPHL",
-          "count": 1
-        }
-      ]
-    },
     {
       "start": "2026-07-09T19:00:00Z",
       "end": "2026-07-09T20:00:00Z",
@@ -18530,12 +18517,28 @@
     {
       "start": "2026-08-23T16:00:00Z",
       "end": "2026-08-23T17:00:00Z",
-      "total": 4,
-      "unknownCount": 31,
-      "rawCompletedFlights": 102,
+      "total": 11,
+      "unknownCount": 73,
+      "rawCompletedFlights": 304,
       "arrivals": [
         {
+          "airport": "KSFO",
+          "count": 3
+        },
+        {
+          "airport": "KEWR",
+          "count": 2
+        },
+        {
+          "airport": "KSMF",
+          "count": 1
+        },
+        {
           "airport": "KPBI",
+          "count": 1
+        },
+        {
+          "airport": "KMSP",
           "count": 1
         },
         {
@@ -18543,11 +18546,44 @@
           "count": 1
         },
         {
-          "airport": "KSFO",
+          "airport": "KAUS",
           "count": 1
         },
         {
           "airport": "KDEN",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-08-23T17:00:00Z",
+      "end": "2026-08-23T18:00:00Z",
+      "total": 8,
+      "unknownCount": 46,
+      "rawCompletedFlights": 135,
+      "arrivals": [
+        {
+          "airport": "KPHL",
+          "count": 3
+        },
+        {
+          "airport": "KSFO",
+          "count": 1
+        },
+        {
+          "airport": "KMCO",
+          "count": 1
+        },
+        {
+          "airport": "KSEA",
+          "count": 1
+        },
+        {
+          "airport": "KPHX",
+          "count": 1
+        },
+        {
+          "airport": "KJFK",
           "count": 1
         }
       ]
