@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-24T15:01:44.351159Z",
+    "generatedAt": "2026-08-24T15:57:12.718355Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
@@ -18929,20 +18929,24 @@
     {
       "start": "2026-08-24T13:00:00Z",
       "end": "2026-08-24T14:00:00Z",
-      "total": 6,
-      "unknownCount": 39,
-      "rawCompletedFlights": 144,
+      "total": 9,
+      "unknownCount": 51,
+      "rawCompletedFlights": 259,
       "arrivals": [
+        {
+          "airport": "KEWR",
+          "count": 2
+        },
         {
           "airport": "KPHL",
           "count": 2
         },
         {
-          "airport": "KLGA",
+          "airport": "KMSP",
           "count": 1
         },
         {
-          "airport": "KEWR",
+          "airport": "KLGA",
           "count": 1
         },
         {
@@ -18952,19 +18956,39 @@
         {
           "airport": "KMCO",
           "count": 1
+        },
+        {
+          "airport": "KABQ",
+          "count": 1
         }
       ]
     },
     {
       "start": "2026-08-24T14:00:00Z",
       "end": "2026-08-24T15:00:00Z",
-      "total": 3,
-      "unknownCount": 11,
-      "rawCompletedFlights": 37,
+      "total": 8,
+      "unknownCount": 39,
+      "rawCompletedFlights": 171,
       "arrivals": [
+        {
+          "airport": "KEWR",
+          "count": 2
+        },
         {
           "airport": "KLGA",
           "count": 2
+        },
+        {
+          "airport": "KMSP",
+          "count": 1
+        },
+        {
+          "airport": "KSLC",
+          "count": 1
+        },
+        {
+          "airport": "KPHX",
+          "count": 1
         },
         {
           "airport": "KSJC",
