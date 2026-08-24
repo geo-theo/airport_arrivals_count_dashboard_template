@@ -1,54 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-08-24T05:54:31.688951Z",
+    "generatedAt": "2026-08-24T07:29:27.751768Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-08-24T03:00:00Z",
-    "windowEnd": "2026-08-24T05:00:00Z",
+    "windowStart": "2026-08-24T05:00:00Z",
+    "windowEnd": "2026-08-24T07:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
   },
   "buckets": [
-    {
-      "start": "2026-07-10T05:00:00Z",
-      "end": "2026-07-10T06:00:00Z",
-      "total": 8,
-      "unknownCount": 9,
-      "rawCompletedFlights": 154,
-      "arrivals": [
-        {
-          "airport": "KPHL",
-          "count": 4
-        },
-        {
-          "airport": "KSMF",
-          "count": 2
-        },
-        {
-          "airport": "KPDX",
-          "count": 1
-        },
-        {
-          "airport": "KEWR",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "start": "2026-07-10T06:00:00Z",
-      "end": "2026-07-10T07:00:00Z",
-      "total": 1,
-      "unknownCount": 3,
-      "rawCompletedFlights": 89,
-      "arrivals": [
-        {
-          "airport": "KPHL",
-          "count": 1
-        }
-      ]
-    },
     {
       "start": "2026-07-10T15:00:00Z",
       "end": "2026-07-10T16:00:00Z",
@@ -18864,6 +18826,32 @@
         },
         {
           "airport": "KSJC",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-08-24T05:00:00Z",
+      "end": "2026-08-24T06:00:00Z",
+      "total": 1,
+      "unknownCount": 4,
+      "rawCompletedFlights": 99,
+      "arrivals": [
+        {
+          "airport": "KSMF",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-08-24T06:00:00Z",
+      "end": "2026-08-24T07:00:00Z",
+      "total": 1,
+      "unknownCount": 0,
+      "rawCompletedFlights": 51,
+      "arrivals": [
+        {
+          "airport": "KSFO",
           "count": 1
         }
       ]
