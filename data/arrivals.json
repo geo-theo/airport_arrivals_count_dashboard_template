@@ -1,29 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-08-25T15:07:04.609608Z",
+    "generatedAt": "2026-08-25T16:01:53.599781Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-08-25T13:00:00Z",
-    "windowEnd": "2026-08-25T15:00:00Z",
+    "windowStart": "2026-08-25T14:00:00Z",
+    "windowEnd": "2026-08-25T16:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
   },
   "buckets": [
-    {
-      "start": "2026-07-11T15:00:00Z",
-      "end": "2026-07-11T16:00:00Z",
-      "total": 1,
-      "unknownCount": 19,
-      "rawCompletedFlights": 48,
-      "arrivals": [
-        {
-          "airport": "KMSY",
-          "count": 1
-        }
-      ]
-    },
     {
       "start": "2026-07-11T17:00:00Z",
       "end": "2026-07-11T18:00:00Z",
@@ -19239,13 +19226,46 @@
     {
       "start": "2026-08-25T14:00:00Z",
       "end": "2026-08-25T15:00:00Z",
-      "total": 2,
-      "unknownCount": 19,
-      "rawCompletedFlights": 51,
+      "total": 8,
+      "unknownCount": 48,
+      "rawCompletedFlights": 186,
       "arrivals": [
+        {
+          "airport": "KMSP",
+          "count": 3
+        },
+        {
+          "airport": "KDFW",
+          "count": 1
+        },
+        {
+          "airport": "KSEA",
+          "count": 1
+        },
         {
           "airport": "KLGA",
           "count": 1
+        },
+        {
+          "airport": "KEWR",
+          "count": 1
+        },
+        {
+          "airport": "KSFO",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-08-25T15:00:00Z",
+      "end": "2026-08-25T16:00:00Z",
+      "total": 3,
+      "unknownCount": 23,
+      "rawCompletedFlights": 56,
+      "arrivals": [
+        {
+          "airport": "KEWR",
+          "count": 2
         },
         {
           "airport": "KSFO",
