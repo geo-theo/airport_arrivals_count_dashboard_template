@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-25T09:01:09.075563Z",
+    "generatedAt": "2026-08-25T09:52:03.271761Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
@@ -19222,15 +19222,15 @@
       "end": "2026-08-25T08:00:00Z",
       "total": 0,
       "unknownCount": 0,
-      "rawCompletedFlights": 87,
+      "rawCompletedFlights": 151,
       "arrivals": []
     },
     {
       "start": "2026-08-25T08:00:00Z",
       "end": "2026-08-25T09:00:00Z",
       "total": 0,
-      "unknownCount": 0,
-      "rawCompletedFlights": 14,
+      "unknownCount": 1,
+      "rawCompletedFlights": 75,
       "arrivals": []
     }
   ]
