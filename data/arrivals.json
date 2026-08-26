@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-26T09:03:38.332896Z",
+    "generatedAt": "2026-08-26T09:58:23.099347Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
@@ -19681,19 +19681,23 @@
       "start": "2026-08-26T07:00:00Z",
       "end": "2026-08-26T08:00:00Z",
       "total": 0,
-      "unknownCount": 2,
-      "rawCompletedFlights": 86,
+      "unknownCount": 3,
+      "rawCompletedFlights": 160,
       "arrivals": []
     },
     {
       "start": "2026-08-26T08:00:00Z",
       "end": "2026-08-26T09:00:00Z",
-      "total": 1,
+      "total": 3,
       "unknownCount": 0,
-      "rawCompletedFlights": 13,
+      "rawCompletedFlights": 86,
       "arrivals": [
         {
           "airport": "KJFK",
+          "count": 2
+        },
+        {
+          "airport": "PANC",
           "count": 1
         }
       ]
