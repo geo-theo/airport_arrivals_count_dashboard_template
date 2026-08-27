@@ -1,120 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-08-27T09:52:35.377464Z",
+    "generatedAt": "2026-08-27T20:32:45.390390Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-08-27T07:00:00Z",
-    "windowEnd": "2026-08-27T09:00:00Z",
+    "windowStart": "2026-08-27T18:00:00Z",
+    "windowEnd": "2026-08-27T20:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
   },
   "buckets": [
-    {
-      "start": "2026-07-13T13:00:00Z",
-      "end": "2026-07-13T14:00:00Z",
-      "total": 7,
-      "unknownCount": 48,
-      "rawCompletedFlights": 197,
-      "arrivals": [
-        {
-          "airport": "KPHL",
-          "count": 5
-        },
-        {
-          "airport": "KLGA",
-          "count": 1
-        },
-        {
-          "airport": "KDFW",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "start": "2026-07-13T14:00:00Z",
-      "end": "2026-07-13T15:00:00Z",
-      "total": 5,
-      "unknownCount": 21,
-      "rawCompletedFlights": 56,
-      "arrivals": [
-        {
-          "airport": "KLGA",
-          "count": 2
-        },
-        {
-          "airport": "KPHL",
-          "count": 1
-        },
-        {
-          "airport": "KMSY",
-          "count": 1
-        },
-        {
-          "airport": "KSJC",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "start": "2026-07-13T15:00:00Z",
-      "end": "2026-07-13T16:00:00Z",
-      "total": 13,
-      "unknownCount": 67,
-      "rawCompletedFlights": 243,
-      "arrivals": [
-        {
-          "airport": "KBOS",
-          "count": 5
-        },
-        {
-          "airport": "KPHL",
-          "count": 3
-        },
-        {
-          "airport": "KSTL",
-          "count": 1
-        },
-        {
-          "airport": "KDEN",
-          "count": 1
-        },
-        {
-          "airport": "KSJC",
-          "count": 1
-        },
-        {
-          "airport": "KDFW",
-          "count": 1
-        },
-        {
-          "airport": "KOAK",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "start": "2026-07-13T16:00:00Z",
-      "end": "2026-07-13T17:00:00Z",
-      "total": 8,
-      "unknownCount": 39,
-      "rawCompletedFlights": 85,
-      "arrivals": [
-        {
-          "airport": "KBOS",
-          "count": 3
-        },
-        {
-          "airport": "KPHL",
-          "count": 3
-        },
-        {
-          "airport": "KLGA",
-          "count": 2
-        }
-      ]
-    },
     {
       "start": "2026-07-13T20:00:00Z",
       "end": "2026-07-13T21:00:00Z",
@@ -19690,6 +19586,68 @@
       "unknownCount": 0,
       "rawCompletedFlights": 72,
       "arrivals": []
+    },
+    {
+      "start": "2026-08-27T18:00:00Z",
+      "end": "2026-08-27T19:00:00Z",
+      "total": 12,
+      "unknownCount": 70,
+      "rawCompletedFlights": 267,
+      "arrivals": [
+        {
+          "airport": "KMSP",
+          "count": 4
+        },
+        {
+          "airport": "KSJC",
+          "count": 3
+        },
+        {
+          "airport": "KSLC",
+          "count": 1
+        },
+        {
+          "airport": "KEWR",
+          "count": 1
+        },
+        {
+          "airport": "KSEA",
+          "count": 1
+        },
+        {
+          "airport": "KOAK",
+          "count": 1
+        },
+        {
+          "airport": "PANC",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-08-27T19:00:00Z",
+      "end": "2026-08-27T20:00:00Z",
+      "total": 4,
+      "unknownCount": 22,
+      "rawCompletedFlights": 77,
+      "arrivals": [
+        {
+          "airport": "KEWR",
+          "count": 1
+        },
+        {
+          "airport": "KOAK",
+          "count": 1
+        },
+        {
+          "airport": "KAUS",
+          "count": 1
+        },
+        {
+          "airport": "KATL",
+          "count": 1
+        }
+      ]
     }
   ]
 }
