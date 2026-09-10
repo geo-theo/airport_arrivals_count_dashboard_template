@@ -1,50 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-09-10T04:53:42.007918Z",
+    "generatedAt": "2026-09-10T09:47:20.069264Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-09-10T02:00:00Z",
-    "windowEnd": "2026-09-10T04:00:00Z",
+    "windowStart": "2026-09-10T07:00:00Z",
+    "windowEnd": "2026-09-10T09:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
   },
   "buckets": [
-    {
-      "start": "2026-07-27T05:00:00Z",
-      "end": "2026-07-27T06:00:00Z",
-      "total": 3,
-      "unknownCount": 4,
-      "rawCompletedFlights": 164,
-      "arrivals": [
-        {
-          "airport": "KSMF",
-          "count": 1
-        },
-        {
-          "airport": "KDEN",
-          "count": 1
-        },
-        {
-          "airport": "KPDX",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "start": "2026-07-27T06:00:00Z",
-      "end": "2026-07-27T07:00:00Z",
-      "total": 1,
-      "unknownCount": 1,
-      "rawCompletedFlights": 79,
-      "arrivals": [
-        {
-          "airport": "KSJC",
-          "count": 1
-        }
-      ]
-    },
     {
       "start": "2026-07-27T09:00:00Z",
       "end": "2026-07-27T10:00:00Z",
@@ -20390,6 +20356,36 @@
         },
         {
           "airport": "KSLC",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-09-10T07:00:00Z",
+      "end": "2026-09-10T08:00:00Z",
+      "total": 1,
+      "unknownCount": 2,
+      "rawCompletedFlights": 165,
+      "arrivals": [
+        {
+          "airport": "KSJC",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-09-10T08:00:00Z",
+      "end": "2026-09-10T09:00:00Z",
+      "total": 2,
+      "unknownCount": 1,
+      "rawCompletedFlights": 67,
+      "arrivals": [
+        {
+          "airport": "KJFK",
+          "count": 1
+        },
+        {
+          "airport": "KLAS",
           "count": 1
         }
       ]
