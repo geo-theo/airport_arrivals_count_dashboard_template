@@ -1,32 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-09-17T07:42:41.292900Z",
+    "generatedAt": "2026-09-17T13:30:22.401038Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-09-17T05:00:00Z",
-    "windowEnd": "2026-09-17T07:00:00Z",
+    "windowStart": "2026-09-17T11:00:00Z",
+    "windowEnd": "2026-09-17T13:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
   },
   "buckets": [
-    {
-      "start": "2026-08-03T09:00:00Z",
-      "end": "2026-08-03T10:00:00Z",
-      "total": 0,
-      "unknownCount": 1,
-      "rawCompletedFlights": 176,
-      "arrivals": []
-    },
-    {
-      "start": "2026-08-03T10:00:00Z",
-      "end": "2026-08-03T11:00:00Z",
-      "total": 0,
-      "unknownCount": 2,
-      "rawCompletedFlights": 69,
-      "arrivals": []
-    },
     {
       "start": "2026-08-03T13:00:00Z",
       "end": "2026-08-03T14:00:00Z",
@@ -19005,6 +18989,32 @@
       "total": 1,
       "unknownCount": 1,
       "rawCompletedFlights": 51,
+      "arrivals": [
+        {
+          "airport": "KDAL",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-09-17T11:00:00Z",
+      "end": "2026-09-17T12:00:00Z",
+      "total": 1,
+      "unknownCount": 9,
+      "rawCompletedFlights": 165,
+      "arrivals": [
+        {
+          "airport": "KMCO",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-09-17T12:00:00Z",
+      "end": "2026-09-17T13:00:00Z",
+      "total": 1,
+      "unknownCount": 8,
+      "rawCompletedFlights": 57,
       "arrivals": [
         {
           "airport": "KDAL",
