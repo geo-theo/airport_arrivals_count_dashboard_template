@@ -1,53 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-09-18T05:57:10.169962Z",
+    "generatedAt": "2026-09-18T11:19:15.537554Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-09-18T03:00:00Z",
-    "windowEnd": "2026-09-18T05:00:00Z",
+    "windowStart": "2026-09-18T09:00:00Z",
+    "windowEnd": "2026-09-18T11:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
   },
   "buckets": [
-    {
-      "start": "2026-08-04T05:00:00Z",
-      "end": "2026-08-04T06:00:00Z",
-      "total": 0,
-      "unknownCount": 3,
-      "rawCompletedFlights": 47,
-      "arrivals": []
-    },
-    {
-      "start": "2026-08-04T07:00:00Z",
-      "end": "2026-08-04T08:00:00Z",
-      "total": 0,
-      "unknownCount": 2,
-      "rawCompletedFlights": 187,
-      "arrivals": []
-    },
-    {
-      "start": "2026-08-04T08:00:00Z",
-      "end": "2026-08-04T09:00:00Z",
-      "total": 0,
-      "unknownCount": 2,
-      "rawCompletedFlights": 105,
-      "arrivals": []
-    },
-    {
-      "start": "2026-08-04T10:00:00Z",
-      "end": "2026-08-04T11:00:00Z",
-      "total": 1,
-      "unknownCount": 3,
-      "rawCompletedFlights": 143,
-      "arrivals": [
-        {
-          "airport": "KDFW",
-          "count": 1
-        }
-      ]
-    },
     {
       "start": "2026-08-04T11:00:00Z",
       "end": "2026-08-04T12:00:00Z",
@@ -18897,6 +18860,27 @@
           "count": 1
         }
       ]
+    },
+    {
+      "start": "2026-09-18T09:00:00Z",
+      "end": "2026-09-18T10:00:00Z",
+      "total": 1,
+      "unknownCount": 0,
+      "rawCompletedFlights": 125,
+      "arrivals": [
+        {
+          "airport": "KJFK",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-09-18T10:00:00Z",
+      "end": "2026-09-18T11:00:00Z",
+      "total": 0,
+      "unknownCount": 0,
+      "rawCompletedFlights": 17,
+      "arrivals": []
     }
   ]
 }
