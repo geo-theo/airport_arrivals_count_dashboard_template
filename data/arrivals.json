@@ -1,49 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-09-19T11:03:06.179707Z",
+    "generatedAt": "2026-09-19T14:27:06.741580Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-09-19T09:00:00Z",
-    "windowEnd": "2026-09-19T11:00:00Z",
+    "windowStart": "2026-09-19T12:00:00Z",
+    "windowEnd": "2026-09-19T14:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
   },
   "buckets": [
-    {
-      "start": "2026-08-05T11:00:00Z",
-      "end": "2026-08-05T12:00:00Z",
-      "total": 0,
-      "unknownCount": 3,
-      "rawCompletedFlights": 28,
-      "arrivals": []
-    },
-    {
-      "start": "2026-08-05T13:00:00Z",
-      "end": "2026-08-05T14:00:00Z",
-      "total": 5,
-      "unknownCount": 41,
-      "rawCompletedFlights": 217,
-      "arrivals": [
-        {
-          "airport": "KMSP",
-          "count": 2
-        },
-        {
-          "airport": "KAUS",
-          "count": 1
-        },
-        {
-          "airport": "KEWR",
-          "count": 1
-        },
-        {
-          "airport": "KDAL",
-          "count": 1
-        }
-      ]
-    },
     {
       "start": "2026-08-05T14:00:00Z",
       "end": "2026-08-05T15:00:00Z",
@@ -18790,6 +18757,36 @@
       "unknownCount": 0,
       "rawCompletedFlights": 15,
       "arrivals": []
+    },
+    {
+      "start": "2026-09-19T12:00:00Z",
+      "end": "2026-09-19T13:00:00Z",
+      "total": 2,
+      "unknownCount": 7,
+      "rawCompletedFlights": 164,
+      "arrivals": [
+        {
+          "airport": "KMSP",
+          "count": 1
+        },
+        {
+          "airport": "KAUS",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-09-19T13:00:00Z",
+      "end": "2026-09-19T14:00:00Z",
+      "total": 1,
+      "unknownCount": 15,
+      "rawCompletedFlights": 63,
+      "arrivals": [
+        {
+          "airport": "KLGA",
+          "count": 1
+        }
+      ]
     }
   ]
 }
