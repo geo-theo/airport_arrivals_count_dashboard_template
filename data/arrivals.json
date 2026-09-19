@@ -1,53 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-09-19T05:55:56.932772Z",
+    "generatedAt": "2026-09-19T11:03:06.179707Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-09-19T03:00:00Z",
-    "windowEnd": "2026-09-19T05:00:00Z",
+    "windowStart": "2026-09-19T09:00:00Z",
+    "windowEnd": "2026-09-19T11:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
   },
   "buckets": [
-    {
-      "start": "2026-08-05T05:00:00Z",
-      "end": "2026-08-05T06:00:00Z",
-      "total": 0,
-      "unknownCount": 2,
-      "rawCompletedFlights": 44,
-      "arrivals": []
-    },
-    {
-      "start": "2026-08-05T07:00:00Z",
-      "end": "2026-08-05T08:00:00Z",
-      "total": 1,
-      "unknownCount": 4,
-      "rawCompletedFlights": 164,
-      "arrivals": [
-        {
-          "airport": "PANC",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "start": "2026-08-05T08:00:00Z",
-      "end": "2026-08-05T09:00:00Z",
-      "total": 0,
-      "unknownCount": 1,
-      "rawCompletedFlights": 79,
-      "arrivals": []
-    },
-    {
-      "start": "2026-08-05T10:00:00Z",
-      "end": "2026-08-05T11:00:00Z",
-      "total": 0,
-      "unknownCount": 2,
-      "rawCompletedFlights": 125,
-      "arrivals": []
-    },
     {
       "start": "2026-08-05T11:00:00Z",
       "end": "2026-08-05T12:00:00Z",
@@ -18802,6 +18765,31 @@
           "count": 1
         }
       ]
+    },
+    {
+      "start": "2026-09-19T09:00:00Z",
+      "end": "2026-09-19T10:00:00Z",
+      "total": 2,
+      "unknownCount": 2,
+      "rawCompletedFlights": 89,
+      "arrivals": [
+        {
+          "airport": "PANC",
+          "count": 1
+        },
+        {
+          "airport": "KSFO",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-09-19T10:00:00Z",
+      "end": "2026-09-19T11:00:00Z",
+      "total": 0,
+      "unknownCount": 0,
+      "rawCompletedFlights": 15,
+      "arrivals": []
     }
   ]
 }
