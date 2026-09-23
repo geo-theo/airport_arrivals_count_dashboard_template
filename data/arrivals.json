@@ -1,61 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-09-23T06:00:47.068024Z",
+    "generatedAt": "2026-09-23T11:41:14.902210Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-09-23T04:00:00Z",
-    "windowEnd": "2026-09-23T06:00:00Z",
+    "windowStart": "2026-09-23T09:00:00Z",
+    "windowEnd": "2026-09-23T11:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
   },
   "buckets": [
-    {
-      "start": "2026-08-09T06:00:00Z",
-      "end": "2026-08-09T07:00:00Z",
-      "total": 0,
-      "unknownCount": 2,
-      "rawCompletedFlights": 17,
-      "arrivals": []
-    },
-    {
-      "start": "2026-08-09T07:00:00Z",
-      "end": "2026-08-09T08:00:00Z",
-      "total": 1,
-      "unknownCount": 1,
-      "rawCompletedFlights": 163,
-      "arrivals": [
-        {
-          "airport": "KSLC",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "start": "2026-08-09T08:00:00Z",
-      "end": "2026-08-09T09:00:00Z",
-      "total": 0,
-      "unknownCount": 0,
-      "rawCompletedFlights": 158,
-      "arrivals": []
-    },
-    {
-      "start": "2026-08-09T09:00:00Z",
-      "end": "2026-08-09T10:00:00Z",
-      "total": 0,
-      "unknownCount": 2,
-      "rawCompletedFlights": 196,
-      "arrivals": []
-    },
-    {
-      "start": "2026-08-09T10:00:00Z",
-      "end": "2026-08-09T11:00:00Z",
-      "total": 0,
-      "unknownCount": 0,
-      "rawCompletedFlights": 54,
-      "arrivals": []
-    },
     {
       "start": "2026-08-09T11:00:00Z",
       "end": "2026-08-09T12:00:00Z",
@@ -18088,6 +18043,27 @@
       "unknownCount": 3,
       "rawCompletedFlights": 16,
       "arrivals": []
+    },
+    {
+      "start": "2026-09-23T09:00:00Z",
+      "end": "2026-09-23T10:00:00Z",
+      "total": 0,
+      "unknownCount": 0,
+      "rawCompletedFlights": 175,
+      "arrivals": []
+    },
+    {
+      "start": "2026-09-23T10:00:00Z",
+      "end": "2026-09-23T11:00:00Z",
+      "total": 1,
+      "unknownCount": 3,
+      "rawCompletedFlights": 51,
+      "arrivals": [
+        {
+          "airport": "KAUS",
+          "count": 1
+        }
+      ]
     }
   ]
 }
