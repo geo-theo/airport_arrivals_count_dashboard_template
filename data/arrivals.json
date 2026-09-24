@@ -1,140 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-09-24T15:08:54.874282Z",
+    "generatedAt": "2026-09-24T19:12:11.614281Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-09-24T13:00:00Z",
-    "windowEnd": "2026-09-24T15:00:00Z",
+    "windowStart": "2026-09-24T17:00:00Z",
+    "windowEnd": "2026-09-24T19:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
   },
   "buckets": [
-    {
-      "start": "2026-08-10T15:00:00Z",
-      "end": "2026-08-10T16:00:00Z",
-      "total": 8,
-      "unknownCount": 66,
-      "rawCompletedFlights": 212,
-      "arrivals": [
-        {
-          "airport": "KLGA",
-          "count": 2
-        },
-        {
-          "airport": "KAUS",
-          "count": 2
-        },
-        {
-          "airport": "KLAS",
-          "count": 1
-        },
-        {
-          "airport": "KBNA",
-          "count": 1
-        },
-        {
-          "airport": "KSTL",
-          "count": 1
-        },
-        {
-          "airport": "KORD",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "start": "2026-08-10T16:00:00Z",
-      "end": "2026-08-10T17:00:00Z",
-      "total": 6,
-      "unknownCount": 50,
-      "rawCompletedFlights": 189,
-      "arrivals": [
-        {
-          "airport": "KOAK",
-          "count": 1
-        },
-        {
-          "airport": "KEWR",
-          "count": 1
-        },
-        {
-          "airport": "KMSP",
-          "count": 1
-        },
-        {
-          "airport": "KSJC",
-          "count": 1
-        },
-        {
-          "airport": "KTPA",
-          "count": 1
-        },
-        {
-          "airport": "KAUS",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "start": "2026-08-10T17:00:00Z",
-      "end": "2026-08-10T18:00:00Z",
-      "total": 8,
-      "unknownCount": 63,
-      "rawCompletedFlights": 206,
-      "arrivals": [
-        {
-          "airport": "KEWR",
-          "count": 2
-        },
-        {
-          "airport": "KMSP",
-          "count": 1
-        },
-        {
-          "airport": "KSMF",
-          "count": 1
-        },
-        {
-          "airport": "KLGA",
-          "count": 1
-        },
-        {
-          "airport": "KOAK",
-          "count": 1
-        },
-        {
-          "airport": "KDEN",
-          "count": 1
-        },
-        {
-          "airport": "KDAL",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "start": "2026-08-10T18:00:00Z",
-      "end": "2026-08-10T19:00:00Z",
-      "total": 3,
-      "unknownCount": 26,
-      "rawCompletedFlights": 65,
-      "arrivals": [
-        {
-          "airport": "KSJC",
-          "count": 1
-        },
-        {
-          "airport": "KPHX",
-          "count": 1
-        },
-        {
-          "airport": "KABQ",
-          "count": 1
-        }
-      ]
-    },
     {
       "start": "2026-08-10T19:00:00Z",
       "end": "2026-08-10T20:00:00Z",
@@ -17679,6 +17555,48 @@
       "unknownCount": 12,
       "rawCompletedFlights": 41,
       "arrivals": []
+    },
+    {
+      "start": "2026-09-24T17:00:00Z",
+      "end": "2026-09-24T18:00:00Z",
+      "total": 6,
+      "unknownCount": 70,
+      "rawCompletedFlights": 210,
+      "arrivals": [
+        {
+          "airport": "KSFO",
+          "count": 2
+        },
+        {
+          "airport": "KMSP",
+          "count": 1
+        },
+        {
+          "airport": "KSMF",
+          "count": 1
+        },
+        {
+          "airport": "PANC",
+          "count": 1
+        },
+        {
+          "airport": "KOAK",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-09-24T18:00:00Z",
+      "end": "2026-09-24T19:00:00Z",
+      "total": 1,
+      "unknownCount": 25,
+      "rawCompletedFlights": 54,
+      "arrivals": [
+        {
+          "airport": "KOAK",
+          "count": 1
+        }
+      ]
     }
   ]
 }
