@@ -1,204 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-10-09T16:15:21.153612Z",
+    "generatedAt": "2026-10-09T20:59:30.851202Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-10-09T14:00:00Z",
-    "windowEnd": "2026-10-09T16:00:00Z",
+    "windowStart": "2026-10-09T18:00:00Z",
+    "windowEnd": "2026-10-09T20:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
   },
   "buckets": [
-    {
-      "start": "2026-08-25T16:00:00Z",
-      "end": "2026-08-25T17:00:00Z",
-      "total": 19,
-      "unknownCount": 83,
-      "rawCompletedFlights": 345,
-      "arrivals": [
-        {
-          "airport": "KEWR",
-          "count": 5
-        },
-        {
-          "airport": "KMSP",
-          "count": 4
-        },
-        {
-          "airport": "KLGA",
-          "count": 2
-        },
-        {
-          "airport": "KDEN",
-          "count": 2
-        },
-        {
-          "airport": "KJFK",
-          "count": 1
-        },
-        {
-          "airport": "KDFW",
-          "count": 1
-        },
-        {
-          "airport": "KPHX",
-          "count": 1
-        },
-        {
-          "airport": "KSJC",
-          "count": 1
-        },
-        {
-          "airport": "KAUS",
-          "count": 1
-        },
-        {
-          "airport": "KORD",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "start": "2026-08-25T17:00:00Z",
-      "end": "2026-08-25T18:00:00Z",
-      "total": 15,
-      "unknownCount": 81,
-      "rawCompletedFlights": 306,
-      "arrivals": [
-        {
-          "airport": "KMSP",
-          "count": 3
-        },
-        {
-          "airport": "KBOS",
-          "count": 2
-        },
-        {
-          "airport": "KAUS",
-          "count": 2
-        },
-        {
-          "airport": "KEWR",
-          "count": 2
-        },
-        {
-          "airport": "KPHX",
-          "count": 1
-        },
-        {
-          "airport": "KSJC",
-          "count": 1
-        },
-        {
-          "airport": "KABQ",
-          "count": 1
-        },
-        {
-          "airport": "KATL",
-          "count": 1
-        },
-        {
-          "airport": "KOAK",
-          "count": 1
-        },
-        {
-          "airport": "KPHL",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "start": "2026-08-25T18:00:00Z",
-      "end": "2026-08-25T19:00:00Z",
-      "total": 21,
-      "unknownCount": 75,
-      "rawCompletedFlights": 281,
-      "arrivals": [
-        {
-          "airport": "KMSP",
-          "count": 6
-        },
-        {
-          "airport": "KEWR",
-          "count": 5
-        },
-        {
-          "airport": "KSJC",
-          "count": 2
-        },
-        {
-          "airport": "PANC",
-          "count": 1
-        },
-        {
-          "airport": "KSLC",
-          "count": 1
-        },
-        {
-          "airport": "KSTL",
-          "count": 1
-        },
-        {
-          "airport": "KSAN",
-          "count": 1
-        },
-        {
-          "airport": "KLAS",
-          "count": 1
-        },
-        {
-          "airport": "KPHL",
-          "count": 1
-        },
-        {
-          "airport": "KAUS",
-          "count": 1
-        },
-        {
-          "airport": "KABQ",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "start": "2026-08-25T19:00:00Z",
-      "end": "2026-08-25T20:00:00Z",
-      "total": 11,
-      "unknownCount": 60,
-      "rawCompletedFlights": 227,
-      "arrivals": [
-        {
-          "airport": "KEWR",
-          "count": 3
-        },
-        {
-          "airport": "KSJC",
-          "count": 2
-        },
-        {
-          "airport": "KLAS",
-          "count": 2
-        },
-        {
-          "airport": "KOAK",
-          "count": 1
-        },
-        {
-          "airport": "KDAL",
-          "count": 1
-        },
-        {
-          "airport": "KBOS",
-          "count": 1
-        },
-        {
-          "airport": "KSFO",
-          "count": 1
-        }
-      ]
-    },
     {
       "start": "2026-08-25T20:00:00Z",
       "end": "2026-08-25T21:00:00Z",
@@ -11313,6 +11125,92 @@
         },
         {
           "airport": "KAUS",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-10-09T18:00:00Z",
+      "end": "2026-10-09T19:00:00Z",
+      "total": 21,
+      "unknownCount": 83,
+      "rawCompletedFlights": 314,
+      "arrivals": [
+        {
+          "airport": "KMSP",
+          "count": 3
+        },
+        {
+          "airport": "KDEN",
+          "count": 3
+        },
+        {
+          "airport": "KSFO",
+          "count": 3
+        },
+        {
+          "airport": "KSTL",
+          "count": 2
+        },
+        {
+          "airport": "KSLC",
+          "count": 2
+        },
+        {
+          "airport": "KPHX",
+          "count": 2
+        },
+        {
+          "airport": "KSJC",
+          "count": 2
+        },
+        {
+          "airport": "KLAS",
+          "count": 1
+        },
+        {
+          "airport": "PANC",
+          "count": 1
+        },
+        {
+          "airport": "KMSY",
+          "count": 1
+        },
+        {
+          "airport": "KPDX",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-10-09T19:00:00Z",
+      "end": "2026-10-09T20:00:00Z",
+      "total": 6,
+      "unknownCount": 54,
+      "rawCompletedFlights": 162,
+      "arrivals": [
+        {
+          "airport": "KSJC",
+          "count": 1
+        },
+        {
+          "airport": "KSFO",
+          "count": 1
+        },
+        {
+          "airport": "KEWR",
+          "count": 1
+        },
+        {
+          "airport": "KSTL",
+          "count": 1
+        },
+        {
+          "airport": "KDEN",
+          "count": 1
+        },
+        {
+          "airport": "KLAS",
           "count": 1
         }
       ]
