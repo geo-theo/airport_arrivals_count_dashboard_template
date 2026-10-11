@@ -1,24 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-10-11T08:55:49.465756Z",
+    "generatedAt": "2026-10-11T15:44:12.726580Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-10-11T06:00:00Z",
-    "windowEnd": "2026-10-11T08:00:00Z",
+    "windowStart": "2026-10-11T13:00:00Z",
+    "windowEnd": "2026-10-11T15:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
   },
   "buckets": [
-    {
-      "start": "2026-08-27T08:00:00Z",
-      "end": "2026-08-27T09:00:00Z",
-      "total": 0,
-      "unknownCount": 0,
-      "rawCompletedFlights": 72,
-      "arrivals": []
-    },
     {
       "start": "2026-08-27T18:00:00Z",
       "end": "2026-08-27T19:00:00Z",
@@ -10925,6 +10917,64 @@
       "unknownCount": 4,
       "rawCompletedFlights": 53,
       "arrivals": []
+    },
+    {
+      "start": "2026-10-11T13:00:00Z",
+      "end": "2026-10-11T14:00:00Z",
+      "total": 9,
+      "unknownCount": 14,
+      "rawCompletedFlights": 157,
+      "arrivals": [
+        {
+          "airport": "KBOS",
+          "count": 2
+        },
+        {
+          "airport": "KMSP",
+          "count": 1
+        },
+        {
+          "airport": "KMCO",
+          "count": 1
+        },
+        {
+          "airport": "KPHX",
+          "count": 1
+        },
+        {
+          "airport": "KEWR",
+          "count": 1
+        },
+        {
+          "airport": "KATL",
+          "count": 1
+        },
+        {
+          "airport": "KDFW",
+          "count": 1
+        },
+        {
+          "airport": "KDEN",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-10-11T14:00:00Z",
+      "end": "2026-10-11T15:00:00Z",
+      "total": 2,
+      "unknownCount": 20,
+      "rawCompletedFlights": 87,
+      "arrivals": [
+        {
+          "airport": "KDFW",
+          "count": 1
+        },
+        {
+          "airport": "KSAN",
+          "count": 1
+        }
+      ]
     }
   ]
 }
