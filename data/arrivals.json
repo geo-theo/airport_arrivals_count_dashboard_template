@@ -1,46 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-10-20T00:23:00.857627Z",
+    "generatedAt": "2026-10-20T06:03:44.329873Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-10-19T22:00:00Z",
-    "windowEnd": "2026-10-20T00:00:00Z",
+    "windowStart": "2026-10-20T04:00:00Z",
+    "windowEnd": "2026-10-20T06:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
   },
   "buckets": [
-    {
-      "start": "2026-09-05T03:00:00Z",
-      "end": "2026-09-05T04:00:00Z",
-      "total": 2,
-      "unknownCount": 11,
-      "rawCompletedFlights": 113,
-      "arrivals": [
-        {
-          "airport": "KSMF",
-          "count": 1
-        },
-        {
-          "airport": "KSJC",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "start": "2026-09-05T04:00:00Z",
-      "end": "2026-09-05T05:00:00Z",
-      "total": 1,
-      "unknownCount": 7,
-      "rawCompletedFlights": 35,
-      "arrivals": [
-        {
-          "airport": "KSFO",
-          "count": 1
-        }
-      ]
-    },
     {
       "start": "2026-09-05T08:00:00Z",
       "end": "2026-09-05T09:00:00Z",
@@ -10926,6 +10896,44 @@
         },
         {
           "airport": "KLAS",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-10-20T04:00:00Z",
+      "end": "2026-10-20T05:00:00Z",
+      "total": 4,
+      "unknownCount": 3,
+      "rawCompletedFlights": 73,
+      "arrivals": [
+        {
+          "airport": "KDEN",
+          "count": 1
+        },
+        {
+          "airport": "KLAS",
+          "count": 1
+        },
+        {
+          "airport": "KHOU",
+          "count": 1
+        },
+        {
+          "airport": "KSLC",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-10-20T05:00:00Z",
+      "end": "2026-10-20T06:00:00Z",
+      "total": 1,
+      "unknownCount": 2,
+      "rawCompletedFlights": 9,
+      "arrivals": [
+        {
+          "airport": "KBWI",
           "count": 1
         }
       ]
