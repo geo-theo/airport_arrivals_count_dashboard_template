@@ -1,119 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-10-19T21:05:23.143424Z",
+    "generatedAt": "2026-10-20T00:23:00.857627Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-10-19T19:00:00Z",
-    "windowEnd": "2026-10-19T21:00:00Z",
+    "windowStart": "2026-10-19T22:00:00Z",
+    "windowEnd": "2026-10-20T00:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
   },
   "buckets": [
-    {
-      "start": "2026-09-04T21:00:00Z",
-      "end": "2026-09-04T22:00:00Z",
-      "total": 4,
-      "unknownCount": 15,
-      "rawCompletedFlights": 38,
-      "arrivals": [
-        {
-          "airport": "KSFO",
-          "count": 1
-        },
-        {
-          "airport": "KLAS",
-          "count": 1
-        },
-        {
-          "airport": "KMIA",
-          "count": 1
-        },
-        {
-          "airport": "KAUS",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "start": "2026-09-04T22:00:00Z",
-      "end": "2026-09-04T23:00:00Z",
-      "total": 12,
-      "unknownCount": 61,
-      "rawCompletedFlights": 197,
-      "arrivals": [
-        {
-          "airport": "KSJC",
-          "count": 2
-        },
-        {
-          "airport": "KLAS",
-          "count": 2
-        },
-        {
-          "airport": "KOAK",
-          "count": 2
-        },
-        {
-          "airport": "KSMF",
-          "count": 1
-        },
-        {
-          "airport": "KLGA",
-          "count": 1
-        },
-        {
-          "airport": "KAUS",
-          "count": 1
-        },
-        {
-          "airport": "KSFO",
-          "count": 1
-        },
-        {
-          "airport": "KPHL",
-          "count": 1
-        },
-        {
-          "airport": "KMSY",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "start": "2026-09-04T23:00:00Z",
-      "end": "2026-09-05T00:00:00Z",
-      "total": 6,
-      "unknownCount": 36,
-      "rawCompletedFlights": 98,
-      "arrivals": [
-        {
-          "airport": "KSTL",
-          "count": 1
-        },
-        {
-          "airport": "KSJC",
-          "count": 1
-        },
-        {
-          "airport": "KLGA",
-          "count": 1
-        },
-        {
-          "airport": "KBOS",
-          "count": 1
-        },
-        {
-          "airport": "KOAK",
-          "count": 1
-        },
-        {
-          "airport": "KSFO",
-          "count": 1
-        }
-      ]
-    },
     {
       "start": "2026-09-05T03:00:00Z",
       "end": "2026-09-05T04:00:00Z",
@@ -10967,6 +10864,68 @@
         },
         {
           "airport": "KORD",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-10-19T22:00:00Z",
+      "end": "2026-10-19T23:00:00Z",
+      "total": 12,
+      "unknownCount": 48,
+      "rawCompletedFlights": 151,
+      "arrivals": [
+        {
+          "airport": "KDEN",
+          "count": 4
+        },
+        {
+          "airport": "KORD",
+          "count": 2
+        },
+        {
+          "airport": "KOAK",
+          "count": 2
+        },
+        {
+          "airport": "KMSP",
+          "count": 1
+        },
+        {
+          "airport": "KLAS",
+          "count": 1
+        },
+        {
+          "airport": "KMSY",
+          "count": 1
+        },
+        {
+          "airport": "KSJC",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-10-19T23:00:00Z",
+      "end": "2026-10-20T00:00:00Z",
+      "total": 5,
+      "unknownCount": 19,
+      "rawCompletedFlights": 47,
+      "arrivals": [
+        {
+          "airport": "KDEN",
+          "count": 2
+        },
+        {
+          "airport": "KSJC",
+          "count": 1
+        },
+        {
+          "airport": "KOAK",
+          "count": 1
+        },
+        {
+          "airport": "KLAS",
           "count": 1
         }
       ]
