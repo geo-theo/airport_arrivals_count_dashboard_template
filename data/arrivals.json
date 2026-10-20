@@ -1,103 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-10-20T17:11:18.911433Z",
+    "generatedAt": "2026-10-20T20:37:29.632259Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-10-20T15:00:00Z",
-    "windowEnd": "2026-10-20T17:00:00Z",
+    "windowStart": "2026-10-20T18:00:00Z",
+    "windowEnd": "2026-10-20T20:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
   },
   "buckets": [
-    {
-      "start": "2026-09-05T17:00:00Z",
-      "end": "2026-09-05T18:00:00Z",
-      "total": 8,
-      "unknownCount": 44,
-      "rawCompletedFlights": 148,
-      "arrivals": [
-        {
-          "airport": "KMSP",
-          "count": 2
-        },
-        {
-          "airport": "KEWR",
-          "count": 2
-        },
-        {
-          "airport": "KSMF",
-          "count": 1
-        },
-        {
-          "airport": "KPHX",
-          "count": 1
-        },
-        {
-          "airport": "KPDX",
-          "count": 1
-        },
-        {
-          "airport": "KSJC",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "start": "2026-09-05T18:00:00Z",
-      "end": "2026-09-05T19:00:00Z",
-      "total": 1,
-      "unknownCount": 9,
-      "rawCompletedFlights": 18,
-      "arrivals": [
-        {
-          "airport": "KDCA",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "start": "2026-09-05T19:00:00Z",
-      "end": "2026-09-05T20:00:00Z",
-      "total": 8,
-      "unknownCount": 27,
-      "rawCompletedFlights": 124,
-      "arrivals": [
-        {
-          "airport": "KAUS",
-          "count": 1
-        },
-        {
-          "airport": "KBOS",
-          "count": 1
-        },
-        {
-          "airport": "KSAN",
-          "count": 1
-        },
-        {
-          "airport": "KMSP",
-          "count": 1
-        },
-        {
-          "airport": "KEWR",
-          "count": 1
-        },
-        {
-          "airport": "KBWI",
-          "count": 1
-        },
-        {
-          "airport": "KATL",
-          "count": 1
-        },
-        {
-          "airport": "KPHX",
-          "count": 1
-        }
-      ]
-    },
     {
       "start": "2026-09-05T20:00:00Z",
       "end": "2026-09-05T21:00:00Z",
@@ -10915,6 +10828,112 @@
       "arrivals": [
         {
           "airport": "KCMH",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-10-20T18:00:00Z",
+      "end": "2026-10-20T19:00:00Z",
+      "total": 17,
+      "unknownCount": 78,
+      "rawCompletedFlights": 250,
+      "arrivals": [
+        {
+          "airport": "KBOS",
+          "count": 3
+        },
+        {
+          "airport": "KSLC",
+          "count": 2
+        },
+        {
+          "airport": "KDFW",
+          "count": 2
+        },
+        {
+          "airport": "KSTL",
+          "count": 1
+        },
+        {
+          "airport": "KMSP",
+          "count": 1
+        },
+        {
+          "airport": "PANC",
+          "count": 1
+        },
+        {
+          "airport": "KEWR",
+          "count": 1
+        },
+        {
+          "airport": "KSJC",
+          "count": 1
+        },
+        {
+          "airport": "KAUS",
+          "count": 1
+        },
+        {
+          "airport": "KOAK",
+          "count": 1
+        },
+        {
+          "airport": "KORD",
+          "count": 1
+        },
+        {
+          "airport": "KDEN",
+          "count": 1
+        },
+        {
+          "airport": "KSAN",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-10-20T19:00:00Z",
+      "end": "2026-10-20T20:00:00Z",
+      "total": 9,
+      "unknownCount": 38,
+      "rawCompletedFlights": 90,
+      "arrivals": [
+        {
+          "airport": "KOAK",
+          "count": 1
+        },
+        {
+          "airport": "KLAS",
+          "count": 1
+        },
+        {
+          "airport": "KMSP",
+          "count": 1
+        },
+        {
+          "airport": "KPHX",
+          "count": 1
+        },
+        {
+          "airport": "KAUS",
+          "count": 1
+        },
+        {
+          "airport": "KSTL",
+          "count": 1
+        },
+        {
+          "airport": "KSJC",
+          "count": 1
+        },
+        {
+          "airport": "KEWR",
+          "count": 1
+        },
+        {
+          "airport": "KBNA",
           "count": 1
         }
       ]
