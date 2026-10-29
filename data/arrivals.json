@@ -1,32 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-10-29T08:32:20.063170Z",
+    "generatedAt": "2026-10-29T16:09:59.547326Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-10-29T06:00:00Z",
-    "windowEnd": "2026-10-29T08:00:00Z",
+    "windowStart": "2026-10-29T14:00:00Z",
+    "windowEnd": "2026-10-29T16:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
   },
   "buckets": [
-    {
-      "start": "2026-09-14T12:00:00Z",
-      "end": "2026-09-14T13:00:00Z",
-      "total": 0,
-      "unknownCount": 11,
-      "rawCompletedFlights": 123,
-      "arrivals": []
-    },
-    {
-      "start": "2026-09-14T13:00:00Z",
-      "end": "2026-09-14T14:00:00Z",
-      "total": 0,
-      "unknownCount": 12,
-      "rawCompletedFlights": 39,
-      "arrivals": []
-    },
     {
       "start": "2026-09-14T17:00:00Z",
       "end": "2026-09-14T18:00:00Z",
@@ -10678,6 +10662,48 @@
       "unknownCount": 1,
       "rawCompletedFlights": 28,
       "arrivals": []
+    },
+    {
+      "start": "2026-10-29T14:00:00Z",
+      "end": "2026-10-29T15:00:00Z",
+      "total": 5,
+      "unknownCount": 51,
+      "rawCompletedFlights": 157,
+      "arrivals": [
+        {
+          "airport": "KMSP",
+          "count": 2
+        },
+        {
+          "airport": "KBOS",
+          "count": 2
+        },
+        {
+          "airport": "KSLC",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-10-29T15:00:00Z",
+      "end": "2026-10-29T16:00:00Z",
+      "total": 3,
+      "unknownCount": 19,
+      "rawCompletedFlights": 41,
+      "arrivals": [
+        {
+          "airport": "KORD",
+          "count": 1
+        },
+        {
+          "airport": "KLGA",
+          "count": 1
+        },
+        {
+          "airport": "KEWR",
+          "count": 1
+        }
+      ]
     }
   ]
 }
