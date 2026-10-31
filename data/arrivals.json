@@ -1,45 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-10-31T05:47:35.496338Z",
+    "generatedAt": "2026-10-31T12:37:07.478248Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-10-31T03:00:00Z",
-    "windowEnd": "2026-10-31T05:00:00Z",
+    "windowStart": "2026-10-31T10:00:00Z",
+    "windowEnd": "2026-10-31T12:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
   },
   "buckets": [
-    {
-      "start": "2026-09-16T05:00:00Z",
-      "end": "2026-09-16T06:00:00Z",
-      "total": 2,
-      "unknownCount": 3,
-      "rawCompletedFlights": 26,
-      "arrivals": [
-        {
-          "airport": "KSJC",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "start": "2026-09-16T09:00:00Z",
-      "end": "2026-09-16T10:00:00Z",
-      "total": 0,
-      "unknownCount": 0,
-      "rawCompletedFlights": 161,
-      "arrivals": []
-    },
-    {
-      "start": "2026-09-16T10:00:00Z",
-      "end": "2026-09-16T11:00:00Z",
-      "total": 0,
-      "unknownCount": 1,
-      "rawCompletedFlights": 42,
-      "arrivals": []
-    },
     {
       "start": "2026-09-16T15:00:00Z",
       "end": "2026-09-16T16:00:00Z",
@@ -10668,6 +10639,22 @@
           "count": 1
         }
       ]
+    },
+    {
+      "start": "2026-10-31T10:00:00Z",
+      "end": "2026-10-31T11:00:00Z",
+      "total": 0,
+      "unknownCount": 3,
+      "rawCompletedFlights": 165,
+      "arrivals": []
+    },
+    {
+      "start": "2026-10-31T11:00:00Z",
+      "end": "2026-10-31T12:00:00Z",
+      "total": 0,
+      "unknownCount": 1,
+      "rawCompletedFlights": 37,
+      "arrivals": []
     }
   ]
 }
