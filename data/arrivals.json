@@ -1,42 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-11-01T07:36:34.873723Z",
+    "generatedAt": "2026-11-01T15:13:16.648124Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-11-01T05:00:00Z",
-    "windowEnd": "2026-11-01T07:00:00Z",
+    "windowStart": "2026-11-01T13:00:00Z",
+    "windowEnd": "2026-11-01T15:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
   },
   "buckets": [
-    {
-      "start": "2026-09-17T11:00:00Z",
-      "end": "2026-09-17T12:00:00Z",
-      "total": 1,
-      "unknownCount": 9,
-      "rawCompletedFlights": 165,
-      "arrivals": [
-        {
-          "airport": "KMCO",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "start": "2026-09-17T12:00:00Z",
-      "end": "2026-09-17T13:00:00Z",
-      "total": 1,
-      "unknownCount": 8,
-      "rawCompletedFlights": 57,
-      "arrivals": [
-        {
-          "airport": "KDAL",
-          "count": 1
-        }
-      ]
-    },
     {
       "start": "2026-09-17T16:00:00Z",
       "end": "2026-09-17T17:00:00Z",
@@ -10601,6 +10575,48 @@
       "arrivals": [
         {
           "airport": "KAUS",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-11-01T13:00:00Z",
+      "end": "2026-11-01T14:00:00Z",
+      "total": 6,
+      "unknownCount": 10,
+      "rawCompletedFlights": 126,
+      "arrivals": [
+        {
+          "airport": "KAUS",
+          "count": 2
+        },
+        {
+          "airport": "KMSP",
+          "count": 1
+        },
+        {
+          "airport": "KMCO",
+          "count": 1
+        },
+        {
+          "airport": "KRDU",
+          "count": 1
+        },
+        {
+          "airport": "KDEN",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-11-01T14:00:00Z",
+      "end": "2026-11-01T15:00:00Z",
+      "total": 1,
+      "unknownCount": 4,
+      "rawCompletedFlights": 28,
+      "arrivals": [
+        {
+          "airport": "KORD",
           "count": 1
         }
       ]
