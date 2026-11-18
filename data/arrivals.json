@@ -1,62 +1,16 @@
 {
   "meta": {
-    "generatedAt": "2026-11-18T04:25:17.155819Z",
+    "generatedAt": "2026-11-18T14:03:09.507984Z",
     "source": "observed",
     "provider": "OpenSky Network",
     "coverage": "50 major US airports",
-    "windowStart": "2026-11-18T02:00:00Z",
-    "windowEnd": "2026-11-18T04:00:00Z",
+    "windowStart": "2026-11-18T12:00:00Z",
+    "windowEnd": "2026-11-18T14:00:00Z",
     "retentionDays": 45,
     "authenticated": false,
     "note": "Counts are completed flights whose estimated arrival airport is in the monitored airport list. Longer history may use the sample baseline."
   },
   "buckets": [
-    {
-      "start": "2026-10-04T04:00:00Z",
-      "end": "2026-10-04T05:00:00Z",
-      "total": 2,
-      "unknownCount": 9,
-      "rawCompletedFlights": 110,
-      "arrivals": [
-        {
-          "airport": "KSLC",
-          "count": 1
-        },
-        {
-          "airport": "KIAD",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "start": "2026-10-04T05:00:00Z",
-      "end": "2026-10-04T06:00:00Z",
-      "total": 0,
-      "unknownCount": 2,
-      "rawCompletedFlights": 46,
-      "arrivals": []
-    },
-    {
-      "start": "2026-10-04T11:00:00Z",
-      "end": "2026-10-04T12:00:00Z",
-      "total": 1,
-      "unknownCount": 2,
-      "rawCompletedFlights": 107,
-      "arrivals": [
-        {
-          "airport": "KMCO",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "start": "2026-10-04T12:00:00Z",
-      "end": "2026-10-04T13:00:00Z",
-      "total": 0,
-      "unknownCount": 4,
-      "rawCompletedFlights": 31,
-      "arrivals": []
-    },
     {
       "start": "2026-10-04T15:00:00Z",
       "end": "2026-10-04T16:00:00Z",
@@ -11246,6 +11200,388 @@
         {
           "airport": "KCLT",
           "count": 6
+        }
+      ]
+    },
+    {
+      "start": "2026-11-18T12:00:00Z",
+      "end": "2026-11-18T13:00:00Z",
+      "total": 609,
+      "unknownCount": 431,
+      "rawCompletedFlights": 4096,
+      "arrivals": [
+        {
+          "airport": "KATL",
+          "count": 65
+        },
+        {
+          "airport": "KORD",
+          "count": 59
+        },
+        {
+          "airport": "KCLT",
+          "count": 42
+        },
+        {
+          "airport": "KDCA",
+          "count": 31
+        },
+        {
+          "airport": "KDFW",
+          "count": 31
+        },
+        {
+          "airport": "KLGA",
+          "count": 29
+        },
+        {
+          "airport": "KDTW",
+          "count": 29
+        },
+        {
+          "airport": "KEWR",
+          "count": 29
+        },
+        {
+          "airport": "KJFK",
+          "count": 28
+        },
+        {
+          "airport": "KPHL",
+          "count": 28
+        },
+        {
+          "airport": "KBOS",
+          "count": 21
+        },
+        {
+          "airport": "KIAD",
+          "count": 20
+        },
+        {
+          "airport": "KBNA",
+          "count": 20
+        },
+        {
+          "airport": "KMIA",
+          "count": 15
+        },
+        {
+          "airport": "KMCO",
+          "count": 14
+        },
+        {
+          "airport": "KIAH",
+          "count": 12
+        },
+        {
+          "airport": "KBWI",
+          "count": 9
+        },
+        {
+          "airport": "KDEN",
+          "count": 9
+        },
+        {
+          "airport": "KDAL",
+          "count": 9
+        },
+        {
+          "airport": "KSLC",
+          "count": 8
+        },
+        {
+          "airport": "KMDW",
+          "count": 8
+        },
+        {
+          "airport": "KMSP",
+          "count": 8
+        },
+        {
+          "airport": "KLAS",
+          "count": 7
+        },
+        {
+          "airport": "KFLL",
+          "count": 6
+        },
+        {
+          "airport": "KTPA",
+          "count": 6
+        },
+        {
+          "airport": "KPHX",
+          "count": 6
+        },
+        {
+          "airport": "KLAX",
+          "count": 6
+        },
+        {
+          "airport": "KSTL",
+          "count": 6
+        },
+        {
+          "airport": "KRDU",
+          "count": 5
+        },
+        {
+          "airport": "KAUS",
+          "count": 4
+        },
+        {
+          "airport": "KSEA",
+          "count": 4
+        },
+        {
+          "airport": "KABQ",
+          "count": 4
+        },
+        {
+          "airport": "KOAK",
+          "count": 4
+        },
+        {
+          "airport": "PANC",
+          "count": 3
+        },
+        {
+          "airport": "KIND",
+          "count": 3
+        },
+        {
+          "airport": "KSAN",
+          "count": 3
+        },
+        {
+          "airport": "PHNL",
+          "count": 3
+        },
+        {
+          "airport": "KPDX",
+          "count": 3
+        },
+        {
+          "airport": "KPIT",
+          "count": 3
+        },
+        {
+          "airport": "KPBI",
+          "count": 3
+        },
+        {
+          "airport": "KHOU",
+          "count": 2
+        },
+        {
+          "airport": "KCLE",
+          "count": 2
+        },
+        {
+          "airport": "KSFO",
+          "count": 1
+        },
+        {
+          "airport": "KCMH",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "start": "2026-11-18T13:00:00Z",
+      "end": "2026-11-18T14:00:00Z",
+      "total": 670,
+      "unknownCount": 882,
+      "rawCompletedFlights": 4399,
+      "arrivals": [
+        {
+          "airport": "KORD",
+          "count": 75
+        },
+        {
+          "airport": "KATL",
+          "count": 75
+        },
+        {
+          "airport": "KMSP",
+          "count": 33
+        },
+        {
+          "airport": "KDFW",
+          "count": 32
+        },
+        {
+          "airport": "KDEN",
+          "count": 31
+        },
+        {
+          "airport": "KCLT",
+          "count": 30
+        },
+        {
+          "airport": "KLGA",
+          "count": 27
+        },
+        {
+          "airport": "KJFK",
+          "count": 24
+        },
+        {
+          "airport": "KIAH",
+          "count": 24
+        },
+        {
+          "airport": "KDTW",
+          "count": 24
+        },
+        {
+          "airport": "KBOS",
+          "count": 23
+        },
+        {
+          "airport": "KEWR",
+          "count": 22
+        },
+        {
+          "airport": "KMIA",
+          "count": 22
+        },
+        {
+          "airport": "KFLL",
+          "count": 20
+        },
+        {
+          "airport": "KDCA",
+          "count": 17
+        },
+        {
+          "airport": "KMCO",
+          "count": 17
+        },
+        {
+          "airport": "KHOU",
+          "count": 15
+        },
+        {
+          "airport": "KMDW",
+          "count": 12
+        },
+        {
+          "airport": "KIAD",
+          "count": 11
+        },
+        {
+          "airport": "KLAX",
+          "count": 10
+        },
+        {
+          "airport": "KSEA",
+          "count": 10
+        },
+        {
+          "airport": "KPHL",
+          "count": 10
+        },
+        {
+          "airport": "KSTL",
+          "count": 10
+        },
+        {
+          "airport": "KBNA",
+          "count": 9
+        },
+        {
+          "airport": "KBWI",
+          "count": 9
+        },
+        {
+          "airport": "KSLC",
+          "count": 7
+        },
+        {
+          "airport": "KRDU",
+          "count": 7
+        },
+        {
+          "airport": "KIND",
+          "count": 6
+        },
+        {
+          "airport": "KCMH",
+          "count": 5
+        },
+        {
+          "airport": "KDAL",
+          "count": 5
+        },
+        {
+          "airport": "KLAS",
+          "count": 5
+        },
+        {
+          "airport": "KTPA",
+          "count": 5
+        },
+        {
+          "airport": "PANC",
+          "count": 4
+        },
+        {
+          "airport": "KPIT",
+          "count": 4
+        },
+        {
+          "airport": "KPDX",
+          "count": 4
+        },
+        {
+          "airport": "KAUS",
+          "count": 4
+        },
+        {
+          "airport": "KPBI",
+          "count": 3
+        },
+        {
+          "airport": "KPHX",
+          "count": 3
+        },
+        {
+          "airport": "KMSY",
+          "count": 3
+        },
+        {
+          "airport": "KCLE",
+          "count": 2
+        },
+        {
+          "airport": "KOAK",
+          "count": 2
+        },
+        {
+          "airport": "KSFO",
+          "count": 2
+        },
+        {
+          "airport": "KSAT",
+          "count": 2
+        },
+        {
+          "airport": "KABQ",
+          "count": 2
+        },
+        {
+          "airport": "KSMF",
+          "count": 1
+        },
+        {
+          "airport": "KSAN",
+          "count": 1
+        },
+        {
+          "airport": "PHNL",
+          "count": 1
         }
       ]
     }
